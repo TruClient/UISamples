@@ -1,0 +1,51 @@
+Virtual User Script started at : 2014-04-23 06:22:58
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 7, initialized on 2014/04/23 at 06:22:58 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000368ms: ** 1: If (true) ** started    [MsgId: MMSG-205180]
+t=00000875ms: ** 1.1: Navigate to "http://jqueryui.com/slider/" ** started    [MsgId: MMSG-205180]
+t=00005902ms: ** 1.1: Navigate to "http://jqueryui.com/slider/" ** successfully completed    [MsgId: MMSG-205180]
+t=00006409ms: ** 1.2: Drag focusable (1) 205px right ** started    [MsgId: MMSG-205180]
+t=00007773ms: ** 1.2: Drag focusable (1) 205px right ** successfully completed    [MsgId: MMSG-205180]
+t=00007790ms: ** 1: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00007796ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+t=00008304ms: ** 2.1: Navigate to "http://www.jqwidgets.co...lider/index.htm" ** started    [MsgId: MMSG-205180]
+t=00010118ms: ** 2.1: Navigate to "http://www.jqwidgets.co...lider/index.htm" ** successfully completed    [MsgId: MMSG-205180]
+t=00010627ms: ** 2.3: Drag 0 131px right ** started    [MsgId: MMSG-205180]
+t=00012751ms: ** 2.3: Drag 0 131px right ** successfully completed    [MsgId: MMSG-205180]
+t=00012757ms: ** 2.5: Verify #8E00FF's "Visible Text" contains "#8E00FF" ** started    [MsgId: MMSG-205180]
+t=00013028ms: ** 2.5: Verify #8E00FF's "Visible Text" contains "#8E00FF" ** successfully completed    [MsgId: MMSG-205180]
+t=00013032ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00013041ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00013552ms: ** 3.1: Navigate to "http://yuilibrary.com/y...ider-basic.html" ** started    [MsgId: MMSG-205180]
+t=00016179ms: Warning -204676: Failed to connect to server "themes.googleusercontent.com": Connection timed out    [MsgId: MWAR-204676]
+t=00016179ms: Warning -204676: Failed to connect to server "themes.googleusercontent.com": Connection timed out    [MsgId: MWAR-204676]
+t=00017958ms: ** 3.1: Navigate to "http://yuilibrary.com/y...ider-basic.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00018472ms: ** 3.3: Set Slider thumb slider to 50 ** started    [MsgId: MMSG-205180]
+t=00019099ms: ** 3.3: Set Slider thumb slider to 50 ** successfully completed    [MsgId: MMSG-205180]
+t=00019106ms: ** 3.4: Verify Value's "Visible Text" contains "50" ** started    [MsgId: MMSG-205180]
+t=00019363ms: ** 3.4: Verify Value's "Visible Text" contains "50" ** successfully completed    [MsgId: MMSG-205180]
+t=00019877ms: ** 3.5: Set Slider thumb slider to 83 ** started    [MsgId: MMSG-205180]
+t=00020419ms: ** 3.5: Set Slider thumb slider to 83 ** successfully completed    [MsgId: MMSG-205180]
+t=00020425ms: ** 3.6: Verify Value's "Visible Text" contains "83" ** started    [MsgId: MMSG-205180]
+t=00020694ms: ** 3.6: Verify Value's "Visible Text" contains "83" ** successfully completed    [MsgId: MMSG-205180]
+t=00020698ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00020706ms: ** 4: If (false) ** started    [MsgId: MMSG-205180]
+t=00020714ms: ** 4: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00020718ms: ** 7: If (true) ** started    [MsgId: MMSG-205180]
+t=00021223ms: ** 7.1: Navigate to "http://zinoui.com/demos/slider" ** started    [MsgId: MMSG-205180]
+t=00023649ms: ** 7.1: Navigate to "http://zinoui.com/demos/slider" ** successfully completed    [MsgId: MMSG-205180]
+t=00024164ms: ** 7.2: Drag focusable (2) 105px right ** started    [MsgId: MMSG-205180]
+t=00025271ms: ** 7.2: Drag focusable (2) 105px right ** successfully completed    [MsgId: MMSG-205180]
+t=00025282ms: ** 7.3: Verify Remote Demo's "Visible Text" contains "68" ** started    [MsgId: MMSG-205180]
+t=00025545ms: ** 7.3: Verify Remote Demo's "Visible Text" contains "68" ** successfully completed    [MsgId: MMSG-205180]
+t=00025549ms: ** 7: If (true) ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

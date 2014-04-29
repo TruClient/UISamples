@@ -1,0 +1,13 @@
+Virtual User Script started at : 2014-04-23 06:22:25
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 7, initialized on 2014/04/23 at 06:22:21 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00004668ms: ** 1: If (true) ** started    [MsgId: MMSG-205180]
+t=00005172ms: ** 1.1: Navigate to "http://jqueryui.com/slider/" ** started    [MsgId: MMSG-205180]
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
