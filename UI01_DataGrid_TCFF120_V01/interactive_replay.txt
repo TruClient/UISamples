@@ -1,0 +1,23 @@
+Virtual User Script started at : 2014-04-29 06:24:12
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 7, initialized on 2014/04/29 at 06:24:12 (0000.000s)
+Ending action vuser_init.
+Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000320ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing" started.
+t=00000826ms: ** 2.1: Navigate to 'http://' +  TC.getParam...c/example1.html' ** started    [MsgId: MMSG-205180]
+t=00002244ms: ** 2.1: Navigate to "http://reconstrukt.com/...c/example1.html" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing" ended with "Pass" status (Duration: 1.4280 Think Time: 0.2000).
+t=00002755ms: ** 2.2: Evaluate JavaScript [Code] on 0 : pg 1 : row 0 : col... ** started    [MsgId: MMSG-205180]
+t=00022784ms: Error -205177: ** 2.2: Evaluate JavaScript [Code] on 0 : pg 1 : row 0 : col... ** failed - target object was not found.
+Reason: Exception occurred in the JavaScript code: ReferenceError: object is not defined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00022839ms: ** 2: If (true) ** was aborted due to an error in a child step    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

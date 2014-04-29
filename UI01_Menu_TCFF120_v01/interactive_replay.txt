@@ -1,0 +1,31 @@
+Virtual User Script started at : 2014-04-13 08:21:05
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 7, initialized on 2014/04/13 at 08:21:05 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000411ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00000417ms: ** 2: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00000448ms: ** 3: If (false) ** started    [MsgId: MMSG-205180]
+t=00000462ms: ** 3: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00000485ms: ** 4: If (false) ** started    [MsgId: MMSG-205180]
+t=00000492ms: ** 4: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00000509ms: ** 5: If (false) ** started    [MsgId: MMSG-205180]
+t=00000515ms: ** 5: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00000523ms: ** 6: If (false) ** started    [MsgId: MMSG-205180]
+t=00000525ms: ** 6: If (false) ** successfully completed    [MsgId: MMSG-205180]
+t=00000544ms: ** 7: If (true) ** started    [MsgId: MMSG-205180]
+t=00001056ms: ** 7.1: Navigate to "http://www.primefaces.o...imeui/menu.html" ** started    [MsgId: MMSG-205180]
+t=00010387ms: ** 7.1: Navigate to "http://www.primefaces.o...imeui/menu.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00010914ms: ** 7.2: Move mouse over New ** started    [MsgId: MMSG-205180]
+t=00011374ms: ** 7.2: Move mouse over New ** successfully completed    [MsgId: MMSG-205180]
+t=00011898ms: ** 7.3: Click on New ** started    [MsgId: MMSG-205180]
+t=00012007ms: ** 7.3: Click on New ** successfully completed    [MsgId: MMSG-205180]
+t=00012018ms: ** 7: If (true) ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

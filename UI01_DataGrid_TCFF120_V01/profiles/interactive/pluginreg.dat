@@ -1,0 +1,33 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.16|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npatgpc.dll|$
+C:\Users\marw\AppData\Roaming\Mozilla\plugins\npatgpc.dll|$
+29.1.2013.906|$
+1398190417345|0|0|$
+ActiveTouch General Plugin Container Version 105|$
+ActiveTouch General Plugin Container|$
+1
+0|application/x-atgpc-plugin|General Plugin Container File|gpc|$
+npo1d.dll|$
+C:\Users\marw\AppData\Roaming\Mozilla\plugins\npo1d.dll|$
+5.3.0.18358|$
+1396700072000|0|0|$
+Version 5.3.0.18358|$
+Google Talk Plugin Video Renderer|$
+1
+0|application/o1d|Google Talk Plugin Video Renderer|o1d|$
+npgoogletalk.dll|$
+C:\Users\marw\AppData\Roaming\Mozilla\plugins\npgoogletalk.dll|$
+5.3.0.18358|$
+1396700070000|0|0|$
+Version 5.3.0.18358|$
+Google Talk Plugin|$
+1
+0|application/googletalk|Google voice and video chat|googletalk|$
+
+[INVALID]

@@ -1,0 +1,104 @@
+Virtual User Script started at : 2014-04-13 07:22:34
+Starting action vuser_init.
+TruClient Replay for LoadRunner 12.0.0, build 1362. OS: Windows 7, initialized on 2014/04/13 at 07:22:33 (0000.000s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000294ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+t=00000803ms: ** 2.1: Navigate to "http://www.jqwidgets.co...oltip/index.htm" ** started    [MsgId: MMSG-205180]
+t=00005541ms: ** 2.1: Navigate to "http://www.jqwidgets.co...oltip/index.htm" ** successfully completed    [MsgId: MMSG-205180]
+t=00005559ms: Error -205177: TypeError: this.element.data(...) is undefined
+jstepGroup.expand@chrome://truclientui/content/ui/jstepGroup.js:106
+onStepStart@chrome://truclientui/content/ui/jstepGroup.js:13
+window.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:111
+window.Event@chrome://truclientrre/content/infra/Event.js:11
+.dispatch@chrome://truclientrre/content/infra/Event.js:22
+Step.prototype<.start@chrome://truclientrre/content/model/Step.js:470
+runBlock/runStep/startTimer<@chrome://truclientrre/content/model/StepExts.js:269
+
+While calling handlers in RuleEngine dispatch, event=** 2.2: Mouse Over ** started, handler=
+function onStepStart() {
+			function onStepEnd(e) {
+				if (wasExpanded && e.retCode == Step.RETCODE_SUCCEEDED)
+					_this.expand(true);
+			}
+			if (Script.state != Step.STATE_RUNNING_FROM) {
+				_this.options.step.query.addOnetimeEventListener("step/end", onStepEnd);
+				if (!_this.element.data('expanded')) {
+					_this.expand(true);
+					var wasExpanded = true;
+				}
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00005561ms: Error -205177: TypeError: this.element.data(...) is undefined
+jstepGroup.expand@chrome://truclientui/content/ui/jstepGroup.js:106
+onStepStart@chrome://truclientui/content/ui/jstepGroup.js:13
+window.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:111
+window.Event@chrome://truclientrre/content/infra/Event.js:11
+.dispatch@chrome://truclientrre/content/infra/Event.js:22
+Step.prototype<.start@chrome://truclientrre/content/model/Step.js:470
+runBlock/runStep/startTimer<@chrome://truclientrre/content/model/StepExts.js:269
+
+While calling handlers in RuleEngine dispatch, event=** 2.2: Mouse Over ** started, handler=
+function onStepStart() {
+			function onStepEnd(e) {
+				if (wasExpanded && e.retCode == Step.RETCODE_SUCCEEDED)
+					_this.expand(true);
+			}
+			if (Script.state != Step.STATE_RUNNING_FROM) {
+				_this.options.step.query.addOnetimeEventListener("step/end", onStepEnd);
+				if (!_this.element.data('expanded')) {
+					_this.expand(true);
+					var wasExpanded = true;
+				}
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00005562ms: Error -205177: TypeError: this.element.data(...) is undefined
+jstepGroup.expand@chrome://truclientui/content/ui/jstepGroup.js:106
+onStepStart@chrome://truclientui/content/ui/jstepGroup.js:13
+window.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:111
+window.Event@chrome://truclientrre/content/infra/Event.js:11
+.dispatch@chrome://truclientrre/content/infra/Event.js:22
+Step.prototype<.start@chrome://truclientrre/content/model/Step.js:470
+runBlock/runStep/startTimer<@chrome://truclientrre/content/model/StepExts.js:269
+
+While calling handlers in RuleEngine dispatch, event=** 2.2: Mouse Over ** started, handler=
+function onStepStart() {
+			function onStepEnd(e) {
+				if (wasExpanded && e.retCode == Step.RETCODE_SUCCEEDED)
+					_this.expand(true);
+			}
+			if (Script.state != Step.STATE_RUNNING_FROM) {
+				_this.options.step.query.addOnetimeEventListener("step/end", onStepEnd);
+				if (!_this.element.data('expanded')) {
+					_this.expand(true);
+					var wasExpanded = true;
+				}
+			}
+		}       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00005602ms: ** 2.2: Mouse Over ** started    [MsgId: MMSG-205180]
+t=00006175ms: ** 2.2.1: Move mouse over element (1) ** started    [MsgId: MMSG-205180]
+t=00006451ms: ** 2.2.1: Move mouse over element (1) ** successfully completed    [MsgId: MMSG-205180]
+t=00006959ms: ** 2.2.2: Move mouse over image (1) image ** started    [MsgId: MMSG-205180]
+t=00007275ms: ** 2.2.2: Move mouse over image (1) image ** successfully completed    [MsgId: MMSG-205180]
+t=00007278ms: ** 2.2: Mouse Over ** successfully completed    [MsgId: MMSG-205180]
+t=00007290ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00007802ms: ** 3: Navigate to "http://jqueryui.com/tooltip/" ** started    [MsgId: MMSG-205180]
+t=00012584ms: ** 3: Navigate to "http://jqueryui.com/tooltip/" ** successfully completed    [MsgId: MMSG-205180]
+t=00012655ms: ** 4: Mouse Over ** started    [MsgId: MMSG-205180]
+t=00013224ms: ** 4.1: Move mouse over But as it's not a native... ** started    [MsgId: MMSG-205180]
+t=00013510ms: ** 4.1: Move mouse over But as it's not a native... ** successfully completed    [MsgId: MMSG-205180]
+t=00014027ms: ** 4.2: Move mouse over Tooltips are also useful... ** started    [MsgId: MMSG-205180]
+t=00014319ms: ** 4.2: Move mouse over Tooltips are also useful... ** successfully completed    [MsgId: MMSG-205180]
+t=00014831ms: ** 4.3: Move mouse over Tooltips can be attached... ** started    [MsgId: MMSG-205180]
+t=00015122ms: ** 4.3: Move mouse over Tooltips can be attached... ** successfully completed    [MsgId: MMSG-205180]
+t=00015635ms: ** 4.4: Move mouse over Tooltips are also useful... ** started    [MsgId: MMSG-205180]
+t=00015938ms: ** 4.4: Move mouse over Tooltips are also useful... ** successfully completed    [MsgId: MMSG-205180]
+t=00015943ms: ** 4: Mouse Over ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

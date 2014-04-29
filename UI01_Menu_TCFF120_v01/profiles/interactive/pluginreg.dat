@@ -1,0 +1,25 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.16|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npo1d.dll|$
+C:\Users\marw\AppData\Roaming\Mozilla\plugins\npo1d.dll|$
+5.2.4.18058|$
+1394778196000|0|0|$
+Version 5.2.4.18058|$
+Google Talk Plugin Video Renderer|$
+1
+0|application/o1d|Google Talk Plugin Video Renderer|o1d|$
+npgoogletalk.dll|$
+C:\Users\marw\AppData\Roaming\Mozilla\plugins\npgoogletalk.dll|$
+5.2.4.18058|$
+1394778194000|0|0|$
+Version 5.2.4.18058|$
+Google Talk Plugin|$
+1
+0|application/googletalk|Google voice and video chat|googletalk|$
+
+[INVALID]
