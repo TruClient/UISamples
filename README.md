@@ -1,5 +1,8 @@
 This repo holds TruClient scripts created as examples of how to create scripts on real apps.
-The apps being tested are of two types:
+
+Scripts are in various folders, each for a different [feature/capability](Features.md).
+
+Apps being tested by scripts are of two types:
 
 A). **[Challenge pages](#ChallengeApps)** containing examples of technologies that might be encountered on real sites.
 We script them to experience insight into how to script on real sites,
