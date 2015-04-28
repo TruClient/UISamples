@@ -50,7 +50,7 @@ The TruClient scripting technology associated with HP LoadRunner addresses apps 
 
 There are several types of demo framework samples:
 
-* <a href="#HybridMobileFrameworks"> Hybrid app development frameworks</a>
+* <a href="#HybridMobileFrameworks"> Hybrid mobile app development frameworks</a>
 
 * <a href="#DesktopJSFrameworks"> Desktop web development frameworks</a>
 
