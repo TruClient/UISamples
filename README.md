@@ -20,7 +20,8 @@ in real apps built with each framework listed here.
 ## <a name="CorrelationChallenge"></a> MyLoadTest (MLT1) Challenge
 http://www.myloadtest.com/training/correlation-challenge/
 was developed by LoadRunner master Stuart Moncrieff
-before TruClient became available.
+for use with LoadRunner C-language scripting.
+This was before TruClient became available.
 
 ## <a name="TheInternet"></a> The Internet on Herokuapp (TIH1) Challenge
 http://the-internet.herokuapp.com/
