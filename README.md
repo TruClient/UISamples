@@ -104,12 +104,27 @@ Sencha Space is a platform for securely distributing HTML5 and hybrid business a
 https://trigger.io/examples/
 lists mobile demo apps buildt using the 
 https://trigger.io/
-web-based mobile development platform that doesn't require locally installed IDE such as XCode, Eclipse.
+web-based mobile development platform and **Forge.io** replacement for PhoneGap/Coordova
+that doesn't require locally installed IDE such as XCode, Eclipse.
 Its UI components and cloud based build environment are a minimum of $39 per month after a 14 day trial.
 
+<a target="_blank" href="http://trigger.io/cross-platform-application-development-blog/2012/02/24/why-trigger-io-doesnt-use-phonegap-5x-faster-native-bridge/">
+The basis for the company's claims about faster performance than PhoneGap are from 2012:
 <img src="http://trigger.io/cross-platform-application-development-blog/wp-content/uploads/2012/02/chart_1-21.png">
+</a> using code at https://github.com/trigger-corp/Forge-vs-Cordova-Performance.
 
-http://trigger.io/cross-platform-application-development-blog/2012/02/24/why-trigger-io-doesnt-use-phonegap-5x-faster-native-bridge/
+On iOS, JavaScript serializes API calls and store them temporarily in the DOM. 
+It then makes a request to a fake URI (forge://…) which the native component intercepts
+and acts on what is stored in the DOM.
+
+The iOS component calls JavaScript using
+
+```
+UIWebView.stringByEvaluatingJavaScriptFromString
+```
+
+which execute JavaScripts directly in the context of the UIWebView.
+
 
 ### <a name="Worklight"></a> Worklight
 IBM Worklight is application development platform that extends PhoneGap (Apache Cordova) with additional development tools and server support for backend integration, authentication, push notifications, and life cycle management. Stackoverflow has a useful guide to understanding the differences between PhoneGap and Worklight.
