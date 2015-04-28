@@ -1,6 +1,6 @@
 This repo holds TruClient scripts created as examples of how to create scripts on real apps.
 
-Scripts are in various folders, each for each [UI feature/capability](Features.md).
+Scripts are in various folders, one folder for each [UI feature/capability](Features.md).
 
 Apps being tested by scripts are of two types:
 
