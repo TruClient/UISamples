@@ -66,7 +66,12 @@ There are several types of demo framework samples:
 * <a href="#Worklight"> Worklight</a>
  
 These frameworks create apps that don't require users to update their app.
-Since JavaScript is dynamically sent from the server, updates can without re-submitting to the app store.
+Since JavaScript is dynamically sent from the server, apps can be updated dynamically
+without re-submitting to the app store (which can take days or even not at all).
+
+More importantly, the faster speed of development and testing shifts time to improving the UX
+and better marketing.
+
 
 NOTE: <a href="#Appcelerator"> Appcelerator</a> is not scripted in TruClient because the resulting app
 is compiled into native code, and thus rather than JavaScript being exchanged with the server.
@@ -120,17 +125,20 @@ On iOS, JavaScript serializes API calls and store them temporarily in the DOM.
 It then makes a request to a fake URI (forge://…) which the native component intercepts
 and acts on what is stored in the DOM.
 
-The iOS component calls JavaScript using
+JavaScript is called to execute directly in the context of the UIWebView by iOS component:
 
 ```
 UIWebView.stringByEvaluatingJavaScriptFromString
 ```
 
-which execute JavaScripts directly in the context of the UIWebView.
+### <a name="Worklight"></a> Worklight from IBM
+http://www-01.ibm.com/software/in/worklight/
+IBM Worklight is part of IBM calls its MobileFirst platform that 
+extends PhoneGap (Apache Cordova) with additional development tools and server support for backend integration, authentication, push notifications, and life cycle management. 
 
-
-### <a name="Worklight"></a> Worklight
-IBM Worklight is application development platform that extends PhoneGap (Apache Cordova) with additional development tools and server support for backend integration, authentication, push notifications, and life cycle management. Stackoverflow has a useful guide to understanding the differences between PhoneGap and Worklight.
+[This article in Stackoverflow](http://stackoverflow.com/questions/12403319/why-use-ibm-worklight-if-it-ultimately-uses-phonegap?utm_source=appsebook&utm_medium=ebook&utm_campaign=MoovwebKinveyEbook)
+notes that Worklight access more native controls than PhoneGap 
+(Options Menu, busy indicator, tabbars, etc).
 
 <hr />
 
