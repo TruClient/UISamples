@@ -94,9 +94,12 @@ http://jquerymobile.com/demos/
 
 ### <a name="SenchaSpace"></a> SenchaSpace
 
-Kitchen Sink
+http://www.sencha.com/products/space/
+Sencha Space does not seem to have a demo like the Kitchen Sink
+for their other product.
 
-Sencha Space is a platform for securely distributing HTML5 and hybrid business applications in a managed enterprise environment. Space is an interesting alternative to the traditional mobile-app-management model and offers business control of their data without commandeering an employee’s phone.
+Sencha Space is a a managed enterprise environment for securely distributing HTML5 and hybrid business apps 
+in a way that offers business control of data without commandeering an employee’s phone.
 
 
 ### <a name="Trigger.io"></a> Trigger.io
