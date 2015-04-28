@@ -1,4 +1,4 @@
-This repo is holds TruClient scripts created as examples of how to create scripts on real apps.
+This repo holds TruClient scripts created as examples of how to create scripts on real apps.
 The apps being tested are of two types:
 
 A). **[Challenge pages](#ChallengeApps)** containing examples of technologies that might be encountered on real sites.
@@ -42,6 +42,7 @@ https://github.com/tourdedave/the-interne
 which contains instructions for creating a local server 
 
 
+<hr />
 
 # <a name="DemoPages"></a> Demo Pages/apps
 
@@ -50,11 +51,10 @@ The TruClient scripting technology associated with HP LoadRunner addresses apps 
 
 There are several types of demo framework samples:
 
-* <a href="#HybridMobileFrameworks"> Hybrid mobile app development frameworks</a>
+* <a href="#HybridMobileFrameworkDemos"> Hybrid mobile app development frameworks</a>
+* <a href="#DesktopJSFrameworkDemos"> Desktop web development frameworks</a>
 
-* <a href="#DesktopJSFrameworks"> Desktop web development frameworks</a>
-
-## <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
+## <a name="HybridMobileFrameworkDemos"></a> Hybrid app development framework demos
 
 * <a href="#Cordova"> Cordova/PhoneGap</a>
 * <a href="#jQueryMobile"> jQueryMobile</a>
@@ -91,6 +91,8 @@ http://jquerymobile.com/demos/
 
 ### <a name="SenchaSpace"></a> SenchaSpace
 
+Kitchen Sink
+
 Sencha Space is a platform for securely distributing HTML5 and hybrid business applications in a managed enterprise environment. Space is an interesting alternative to the traditional mobile-app-management model and offers business control of their data without commandeering an employee’s phone.
 
 
@@ -114,4 +116,5 @@ uses its Aptana IDE to develop JavaScript, which is compiled into native code.
 
 
 
-## <a name="DesktopJSFrameworks"></a> Desktop web development frameworks
+## <a name="DesktopJSFrameworkDemos"></a> Desktop web development framework Demos
+
