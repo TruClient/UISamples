@@ -22,7 +22,7 @@ Folder names are in brackets mentioned below.
 # <a name="ChallengeApps"></a> Challenge apps
 
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
-* <a href="#TheInternet"> **TIH1** The Internet on Herokuapp Challenge</a>
+* <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
 ----
 
@@ -33,16 +33,16 @@ for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
 
-### <a name="TheInternet"></a> The Internet on Herokuapp [TIH1] Challenge
+### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
 http://the-internet.herokuapp.com/
-is a website constructed by a Selenium functional test automation guru Dave Haeffner. 
-to provide examples
-
-http://elementalselenium.com/tips/45-checkboxes
+is a website constructed by a Selenium functional test automation guru Dave Haeffner.
 
 Source code used to build the website is at 
 https://github.com/tourdedave/the-interne 
 which contains instructions for creating a local server 
+
+David uses the sample site to provide the basis for describing Selenium coding tips such as 
+http://elementalselenium.com/tips/45-checkboxes.
 
 
 <hr />
