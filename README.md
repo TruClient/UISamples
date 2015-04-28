@@ -21,8 +21,8 @@ Folder names are in brackets mentioned below.
 
 # <a name="ChallengeApps"></a> Challenge apps
 
-* <a href="#CorrelationChallenge"> MyLoadTest [MLT1] Challenge</a>
-* <a href="#TheInternet"> The Internet on Herokuapp [TIH1] Challenge</a>
+* <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
+* <a href="#TheInternet"> **TIH1** The Internet on Herokuapp Challenge</a>
 
 ----
 
