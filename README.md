@@ -59,6 +59,8 @@ There are several types of demo framework samples:
 
 ## <a name="DesktopJSFrameworkDemos"></a> "Responsive" web development frameworks
 
+* <a href="#Bootstrap"> Bootstrap</a>
+
 
 ### <a name="Bootstrap"></a> Bootstrap Responsive web developmenet framework
 
