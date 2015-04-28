@@ -10,6 +10,28 @@ We script them to provide a "heads up" on difficulties that might be encountered
 in real apps built with each framework listed here.
 
 
+# <a name="ChallengeApps"></a> Challenge apps
+
+* <a href="#CorrelationChallenge"> MyLoadTest (MLT1) Challenge</a>
+* <a href="#TheInternet"> The Internet on Herokuapp (TIH1) Challenge</a>
+
+<hr />
+
+## <a name="CorrelationChallenge"></a> MyLoadTest (MLT1) Challenge
+http://www.myloadtest.com/training/correlation-challenge/
+was developed by LoadRunner master Stuart Moncrieff
+before TruClient became available.
+
+## <a name="TheInternet"></a> The Internet on Herokuapp (TIH1) Challenge
+http://the-internet.herokuapp.com/
+is a website constructed by a Selenium functional test automation guru (Dave Haeffner) 
+to provide examples
+
+Source code used to build the website is at 
+https://github.com/tourdedave/the-interne 
+which contains instructions for creating a local server 
+wit such as:
+http://before TruClient became available.
 # <a name="Hybridapps"></a> Hybrid apps
 
 
