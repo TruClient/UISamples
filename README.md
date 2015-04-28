@@ -1,20 +1,23 @@
-This repo is intended to hold TruClient scripts created as examples of how to create scripts on real apps.
+This repo is holds TruClient scripts created as examples of how to create scripts on real apps.
+The apps being tested are demos pages to generic implementation of frameworks used to develop real apps.
 
-The apps being tested are demos of frameworks used to develop real apps.
-
-CAUTION: These scripts should not run with more than a single user at a time.
-
-Demo web pages are as follows:
+We do it to provide a "heads up" on difficulties that might be encountered 
+in real apps built with each framework listed here:
 
 * <a href="#Cordova"> Cordova/PhoneGap</a>
 * <a href="#jQueryMobile"> jQueryMobile</a>
 * <a href="#SenchaSpace"> SenchaSpace</a>
 * <a href="#Trigger.io"> Trigger.io</a>
 * <a href="#Worklight"> Worklight</a>
+ 
+
+**CAUTION: Scripts pointing to websites here should not run with more than a single user at a time.**
 
 <hr />
 
 ## <a name="Cordova"></a> Cordova/PhoneGap
+
+http://bit.ly/1798cD0
 
 User Interface Samples
 
@@ -22,7 +25,12 @@ PhoneGap (Apache Cordova) is a free and open source framework that allows you to
 
 ## <a name="jQueryMobile"></a> jQueryMobile
 
-User Interface Samples
+A generic implementation of each framework feature is listed at  
+http://api.jquerymobile.com/category/all/
+
+http://demos.jquerymobile.com/1.4.5/
+was the latest version listed at
+http://jquerymobile.com/demos/
 
 ## <a name="SenchaSpace"></a> SenchaSpace
 
