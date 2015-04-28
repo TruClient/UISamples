@@ -43,13 +43,13 @@ which contains instructions for creating a local server
 
 
 
-## <a name="DemoPages"></a> Demo Pages/apps
+# <a name="DemoPages"></a> Demo Pages/apps
 
 The TruClient scripting technology associated with HP only applies to apps which are driven by **JavaScript**.
 (The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
 
-# <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
+## <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
 
 * <a href="#Cordova"> Cordova/PhoneGap</a>
 * <a href="#jQueryMobile"> jQueryMobile</a>
@@ -57,6 +57,12 @@ The TruClient scripting technology associated with HP only applies to apps which
 * <a href="#Trigger.io"> Trigger.io</a>
 * <a href="#Worklight"> Worklight</a>
  
+These frameworks create apps that don't require users to update their app.
+Since JavaScript is dynamically sent from the server, updates can without re-submitting to the app store.
+
+NOTE: <a href="#Appcelerator"> Appcelerator</a> is not scripted in TruClient because the resulting app
+is compiled into native code, and thus rather than JavaScript being exchanged with the server.
+
 
 ### <a name="Cordova"></a> Cordova/PhoneGap Demo (PGD1)
 
@@ -85,9 +91,19 @@ Sencha Space is a platform for securely distributing HTML5 and hybrid business a
 
 ### <a name="Trigger.io"></a> Trigger.io
 
-Trigger.io is a mobile development platform that bundles a hybrid framework with a JavaScript API for device functionality and UI components with a cloud based build environment.
+https://trigger.io/examples/
+lists mobile demo apps buildt using the 
+https://trigger.io/
+web-based mobile development platform that doesn't require locally installed IDE such as XCode, Eclipse.
+Its UI components and cloud based build environment are a minimum of $39 per month after a 14 day trial.
 
 
 ### <a name="Worklight"></a> Worklight
 IBM Worklight is application development platform that extends PhoneGap (Apache Cordova) with additional development tools and server support for backend integration, authentication, push notifications, and life cycle management. Stackoverflow has a useful guide to understanding the differences between PhoneGap and Worklight.
+
+<hr />
+
+### <a name="Appcelerator"></a> Appcelerator (ACL1)
+
+uses its Aptana IDE to develop JavaScript, which is compiled into native code.
 
