@@ -45,9 +45,14 @@ which contains instructions for creating a local server
 
 # <a name="DemoPages"></a> Demo Pages/apps
 
-The TruClient scripting technology associated with HP only applies to apps which are driven by **JavaScript**.
+The TruClient scripting technology associated with HP LoadRunner addresses apps which are driven by **JavaScript**.
 (The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
+There are several types of demo framework samples:
+
+* <a href="#HybridMobileFrameworks"> Hybrid app development frameworks</a>
+
+* <a href="#DesktopJSFrameworks"> Desktop web development frameworks</a>
 
 ## <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
 
@@ -107,3 +112,6 @@ IBM Worklight is application development platform that extends PhoneGap (Apache 
 
 uses its Aptana IDE to develop JavaScript, which is compiled into native code.
 
+
+
+## <a name="DesktopJSFrameworks"></a> Desktop web development frameworks
