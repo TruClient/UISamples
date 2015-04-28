@@ -1,45 +1,51 @@
 This repo is holds TruClient scripts created as examples of how to create scripts on real apps.
 The apps being tested are of two types:
 
-A). **Challenge pages** containing examples of technologies that might be encountered on real sites.
+A). **[Challenge pages]("#ChallengeApps")** containing examples of technologies that might be encountered on real sites.
 We script them to experience insight into how to script on real sites,
 so that we can script real sites faster and better, while we are not in emergency mode.
 
-B). **Demo pages** containing generic a implementation of frameworks used to develop real apps.
+B). **[Demo pages](#DemoPages)** containing generic a implementation of frameworks used to develop real apps.
 We script them to provide a "heads up" on difficulties that might be encountered 
 in real apps built with each framework listed here.
 
-
-# <a name="ChallengeApps"></a> Challenge apps
-
-* <a href="#CorrelationChallenge"> MyLoadTest (MLT1) Challenge</a>
-* <a href="#TheInternet"> The Internet on Herokuapp (TIH1) Challenge</a>
+Scripts (and explanation of scripts) for each challenge or demo is in a separate folder in this repo.
+Folder names are in brackets mentioned below.
 
 <hr />
 
-## <a name="CorrelationChallenge"></a> MyLoadTest (MLT1) Challenge
+# <a name="ChallengeApps"></a> Challenge apps
+
+* <a href="#CorrelationChallenge"> MyLoadTest [MLT1] Challenge</a>
+* <a href="#TheInternet"> The Internet on Herokuapp [TIH1] Challenge</a>
+
+<hr />
+
+## <a name="CorrelationChallenge"></a> MyLoadTest [MLT1] Challenge
 http://www.myloadtest.com/training/correlation-challenge/
-was developed by LoadRunner master Stuart Moncrieff
+was developed by LoadRunner master Stuart Moncrieff (in Melbourne, Australia)
 for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
-## <a name="TheInternet"></a> The Internet on Herokuapp (TIH1) Challenge
+
+## <a name="TheInternet"></a> The Internet on Herokuapp [TIH1] Challenge
 http://the-internet.herokuapp.com/
-is a website constructed by a Selenium functional test automation guru (Dave Haeffner) 
+is a website constructed by a Selenium functional test automation guru Dave Haeffner. 
 to provide examples
+
+http://elementalselenium.com/tips/45-checkboxes
 
 Source code used to build the website is at 
 https://github.com/tourdedave/the-interne 
 which contains instructions for creating a local server 
-wit such as:
-http://before TruClient became available.
-# <a name="Hybridapps"></a> Hybrid apps
 
+
+## <a name="Hybridapps"></a> Hybrid apps
 
 The TruClient scripting technology associated with HP only applies to apps which are driven by **JavaScript**.
 Other scripting protocols create scripts from PCAP files. 
 
-# <a name="Hybridapps"></a> Hybrid apps
+# <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
 
 * <a href="#Cordova"> Cordova/PhoneGap</a>
 * <a href="#jQueryMobile"> jQueryMobile</a>
