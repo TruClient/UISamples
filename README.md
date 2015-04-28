@@ -26,7 +26,7 @@ Folder names are in brackets mentioned below.
 
 ----
 
-### <a name="CorrelationChallenge"></a> MyLoadTest [MLT1] Challenge
+### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
 http://www.myloadtest.com/training/correlation-challenge/
 was developed by LoadRunner master Stuart Moncrieff (in Melbourne, Australia)
 for use with LoadRunner C-language scripting.
@@ -46,16 +46,41 @@ http://elementalselenium.com/tips/45-checkboxes.
 
 
 <hr />
-
-# <a name="DemoPages"></a> Demo Pages/apps
+# <a name="DemoPages"></a> Demo JavaScript Pages/apps
 
 The TruClient scripting technology associated with HP LoadRunner addresses apps which are driven by **JavaScript**.
 (The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
 There are several types of demo framework samples:
 
+* <a href="#DesktopJSFrameworkDemos"> "Responsive" web development frameworks</a>
 * <a href="#HybridMobileFrameworkDemos"> Hybrid mobile app development frameworks</a>
-* <a href="#DesktopJSFrameworkDemos"> Desktop web development frameworks</a>
+
+
+## <a name="DesktopJSFrameworkDemos"></a> "Responsive" web development frameworks
+
+
+### <a name="Bootstrap"></a> Bootstrap Responsive web developmenet framework
+
+http://getbootstrap.com/examples/theme/
+provides a demo page showing how the whole range of UI elements look when built using 
+Bootstrap.JS downloaded from 
+or (more commonly) referenced from a CDN in HTML.
+However the page doesn't have code to respond to user actions mimic'd by TruClient automation scripts.
+
+http://expo.getbootstrap.com/
+and http://builtwithbootstrap.com/
+provide a showcase of real sites built using the library. 
+
+The library began within Twitter, and enabled made it humanly possible to create responsive websites
+by changing a few HTML properties. This simplicity is made possible by limiting how much space each column
+takes by allocating 12 slots among all boxes. 
+
+Bootstrap depends on jQuery and Grunt utilities.
+
+<!-- http://www.williamghelfi.com/blog/2013/09/12/my-first-bootstrap-theme-with-themestrap/
+-->
+<hr />
 
 ## <a name="HybridMobileFrameworkDemos"></a> Hybrid app development framework demos
 
@@ -146,7 +171,4 @@ notes that Worklight access more native controls than PhoneGap
 
 uses its Aptana IDE to develop JavaScript, which is compiled into native code.
 
-
-
-## <a name="DesktopJSFrameworkDemos"></a> Desktop web development framework Demos
 
