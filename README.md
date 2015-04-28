@@ -107,6 +107,9 @@ https://trigger.io/
 web-based mobile development platform that doesn't require locally installed IDE such as XCode, Eclipse.
 Its UI components and cloud based build environment are a minimum of $39 per month after a 14 day trial.
 
+<img src="http://trigger.io/cross-platform-application-development-blog/wp-content/uploads/2012/02/chart_1-21.png">
+
+http://trigger.io/cross-platform-application-development-blog/2012/02/24/why-trigger-io-doesnt-use-phonegap-5x-faster-native-bridge/
 
 ### <a name="Worklight"></a> Worklight
 IBM Worklight is application development platform that extends PhoneGap (Apache Cordova) with additional development tools and server support for backend integration, authentication, push notifications, and life cycle management. Stackoverflow has a useful guide to understanding the differences between PhoneGap and Worklight.
