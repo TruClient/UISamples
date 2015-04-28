@@ -22,12 +22,14 @@ Names of elements may be my invention, since each framework may have a different
  
  * Camera, 
  * Video, 
- 
+ * Voice recording,
  * Phone,
  * SMS, 
  * Voice recording,
- 
+<p> 
  * Battery Status?,
- 
+ * Accelerometer,
+ * GPS,
+ <p>
  * Contacts,
  
