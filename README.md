@@ -46,7 +46,7 @@ which contains instructions for creating a local server
 ## <a name="DemoPages"></a> Demo Pages/apps
 
 The TruClient scripting technology associated with HP only applies to apps which are driven by **JavaScript**.
-Other scripting protocols create scripts from PCAP files.
+(The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
 
 # <a name="HybridMobileFrameworks"></a> Hybrid app development frameworks
