@@ -14,7 +14,8 @@ The table below is copied from an Excel spreadsheet for easier sorting.
 
 The **Type** values are:
 
-  * **Mobile** - only avaialable in hybrid mobile web apps.
+ * **Mobile** - capabilties only avaialable in mobile smart phones.
+ * **Widget** - a UI control that bring the richness of desktop applications to the Web.
 
 TIH1 and other columns are described in [WebsitesToScript.md](WebsitesToScript.md).
 
