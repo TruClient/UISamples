@@ -186,22 +186,33 @@ Bootstrap depends on jQuery and Grunt utilities.
 
 ## <a name="DesktopJSFrameworkDemos"></a> Desktop web development framework demos
 
-A.	http://jqueryui.com/demos
-B.	http://www.jqwidgets.com/jquery-widgets-demo (built on top of jquery)
+The controls for each of these take up one column in the table.
 
-C.	Bootstrap
-D.	http://demos.telerik.com/kendo-ui/web/overview/index.html
+A).	http://jqueryui.com/demos
 
-E.	http://zinoui.com/demos 
-F.	http://dhtmlx.com/docs/products/index.shtml (complete interfaces like spreadsheet, scheduler, Gantt chart, Geo Explorer, etc.)
-G.	http://www.primefaces.org/primeui/demo.html 
+B).	http://www.jqwidgets.com/jquery-widgets-demo (built on top of jquery)
 
-H.	http://madrobby.github.io/scriptaculous/demos 
-I.	http://www.prototype-ui.com (built on scriptaculous)
-J.	http://livepipe.net (built on prototype)
-K.	http://www.sencha.com/products/extjs/examples 
-L.	http://www.greensock.com/gsap-js focuses on animation
-M.	http://wijmo.com/demo/explore/  (many charts)
+C).	Bootstrap
+
+D).	http://demos.telerik.com/kendo-ui/web/overview/index.html
+
+E).	http://zinoui.com/demos 
+
+F).	http://dhtmlx.com/docs/products/index.shtml (complete interfaces like spreadsheet, scheduler, Gantt chart, Geo Explorer, etc.)
+
+G).	http://www.primefaces.org/primeui/demo.html 
+
+H).	http://madrobby.github.io/scriptaculous/demos 
+
+I).	http://www.prototype-ui.com (built on scriptaculous)
+
+J).	http://livepipe.net (built on prototype)
+
+K).	http://www.sencha.com/products/extjs/examples 
+
+L).	http://www.greensock.com/gsap-js focuses on animation
+
+M).	http://wijmo.com/demo/explore/  (many charts)
 
 
 ## <a name="ASP.NETFrameworkDemos"></a> Desktop ASP.NET web development framework demos
