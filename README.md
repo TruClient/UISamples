@@ -31,29 +31,50 @@ for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
 Here are the manual steps the script should emulate:
-1. Begin at http://www.myloadtest.com/training/correlation-challenge/
-2. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
-3. Input the number in the text field and click Next.
-4. At the "Step 2" screen: Leave the drop-down list set to its default value, and press Next.
+
+1. Filter out all requests to www.google-analytics.com so you don't corrupt my Google Analytics metics
+   by coding in C-programming scripts:
+
+      ```
+      web_add_auto_filter("Action=Exclude", "Host=www.google-analytics.com", LAST);
+      ```
+
+2. Begin at http://www.myloadtest.com/training/correlation-challenge/
+
+
+3. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
+
+4. Input the number in the text field and click Next.
+
+5. At the "Step 2" screen: Leave the drop-down list set to its default value, and press Next.
    Capture the table returned.
-5. At the "Step 3" screen: For each row containing "In Stock" under the Availability column heading, 
+
+6. At the "Step 3" screen: For each row containing "In Stock" under the Availability column heading, 
    check the corresponding column's Select checkbox. Press next.
    This is perhaps the most difficult part of the charllenge becuase it involves correspondance between rows.
    Capture some "complicated things" in the HTML returned for the next screen.
-6. At the "Step 4" screen: Manually determine what is unsaid. Click Next. 
-7. The challenge is complete.
+
+7. At the "Step 4" screen: Manually determine what is unsaid. Click Next. 
+
+8. The text says the challenge is complete.
+   However. Change the User-Agent string in your script to "VuGen" to show you aren't using a standard browser. 
+   
+9. Rerun page to show different information with the modified User-Agent.
+
+
 
 ### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
 http://the-internet.herokuapp.com/
 is a website constructed by a Selenium functional test automation guru Dave Haeffner
 (http://davehaeffner.com).
 
+David uses the 35 items on the website to provide the basis for describing Selenium coding tips such as 
+http://elementalselenium.com/tips/45-checkboxes.
+
 Source code used to build the website is at 
 https://github.com/tourdedave/the-interne 
 which contains instructions for creating a local server 
 
-David uses the sample site to provide the basis for describing Selenium coding tips such as 
-http://elementalselenium.com/tips/45-checkboxes.
 
 
 <hr />
