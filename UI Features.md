@@ -1,10 +1,17 @@
-Github naturally sorts folders in alphabetical order.
-To avoid yanking your chain with empty folders, each of the 43 folders below
+In the repo scripts are stored within folders.
+There is one folder for each UI feature
+to group scripts dealing with the same feature together.
+
+To avoid yanking your chain with empty folders, each of the 88 folders/features identified 
 is created only when there is a script that goes in it.
 
-Names of elements may be my invention, since each framework may have a different name for the same feature.
+Each framework may have a different name for the same feature,
+so I may have taken liberties with the names of folders/features.
+
+Github naturally sorts folders in alphabetical order, so that's how they are presented here.
 
 The table below is copied from an Excel spreadsheet for easier sorting.
+
 The **Type** values are:
 
   * Mobile - for hybrid mobile web apps.
