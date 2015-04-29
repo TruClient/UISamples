@@ -26,21 +26,22 @@ Folder names are in brackets mentioned below.
 
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
+http://www.myloadtest.com/loadrunner-correlation-exercise/
 was developed by LoadRunner master Stuart Moncrieff (of Melbourne, Australia)
 for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
+#### <a name="CorrelationChallenge"></a> MyLoadTest Correlation Challenge
 Here are the manual steps the script should emulate:
 
-1. Filter out all requests to www.google-analytics.com so you don't corrupt my Google Analytics metics
+1. Filter out all requests to www.google-analytics.com to avoid corrupting the site's Google Analytics metics
    by coding in C-programming scripts:
 
       ```
       web_add_auto_filter("Action=Exclude", "Host=www.google-analytics.com", LAST);
       ```
 
-2. Begin at http://www.myloadtest.com/training/correlation-challenge/
-
+2. Begin recording at URL http://www.myloadtest.com/training/correlation-challenge/
 
 3. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
 
@@ -61,6 +62,7 @@ Here are the manual steps the script should emulate:
    
 9. Rerun page to show different information with the modified User-Agent.
 
+#### <a name="CorrelationChallenge"></a> MyLoadTest Correlation Challenge
 
 
 ### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
