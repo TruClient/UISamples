@@ -62,8 +62,17 @@ Here are the manual steps the script should emulate:
    
 9. Rerun page to show different information with the modified User-Agent.
 
-#### <a name="CorrelationChallenge"></a> MyLoadTest Correlation Challenge
+#### <a name="CreditCardChallenge"></a> MyLoadTest Credit Card Challenge
+http://www.myloadtest.com/credit-card-challenge/
 
+#### <a name="BasicAJAXChallenge"></a> MyLoadTest basic AJAX application
+http://www.myloadtest.com/scripting-exercise-a-basic-ajax-application/
+
+#### <a name="UniqueUsernamese"></a> MyLoadTest Unique Usernames Challenge
+http://www.myloadtest.com/scripting-exercise-unique-usernames/
+
+
+<HR />
 
 ### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
 http://the-internet.herokuapp.com/
