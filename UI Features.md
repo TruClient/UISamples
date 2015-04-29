@@ -14,8 +14,9 @@ The table below is copied from an Excel spreadsheet for easier sorting.
 
 The **Type** values are:
 
-  * Mobile - for hybrid mobile web apps.
-  * TIH1
+  * **Mobile** - only avaialable in hybrid mobile web apps.
+
+TIH1 and other columns are described in [WebsitesToScript.md](WebsitesToScript.md).
 
 <hr />
 
