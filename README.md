@@ -8,7 +8,7 @@ A). **[Challenge pages](#ChallengeApps)** containing examples of technologies th
 We script them to experience insight into how to script on real sites,
 so that we can script real sites faster and better, while we are not in emergency mode.
 
-B). **[Demo pages](#DemoPages)** containing generic a implementation of frameworks used to develop real apps.
+B). **[Demo pages](#DemoPages)** containing a generic implementation of frameworks used to develop real apps.
 We script them to provide a "heads up" on difficulties that might be encountered 
 in real apps built with each framework listed here.
 
