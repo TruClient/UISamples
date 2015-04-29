@@ -39,117 +39,116 @@ This page contains notes about each sample page at http://the-internet.herokuapp
 </ol>
 
 <hr />
-
-## <a name='abtest'>A/B Testing</a>
+### <a name="abtest"> TIH1_abtest</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/abtest'>A/B Testing</a>
 
-## <a name='basic_auth'>Basic Auth</a> (user and pass: admin)
+### <a name="basic_auth"> TIH1_basic_auth</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/basic_auth'>Basic Auth</a> (user and pass: admin)</li>
 
-## <a name='broken_images'>Broken Images</a>
+### <a name="broken_images"> TIH1_broken_images</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/broken_images'>Broken Images</a>
 
-## <a name='challenging_dom'>Challenging DOM</a>
+### <a name="challenging_dom"> TIH1_challenging_dom</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/challenging_dom'>Challenging DOM</a>
 
-## <a name='checkboxes'>Checkboxes</a>
+### <a name="checkboxes"> TIH1_checkboxes</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/checkboxes'>Checkboxes</a>
 
-## <a name='context_menu'>Context Menu</a>
+### <a name="context_menu"> TIH1_context_menu</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/context_menu'>Context Menu</a>
 
-## <a name='disappearing_elements'>Disappearing Elements</a>
+### <a name="disappearing_elements"> TIH1_disappearing_elements</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/disappearing_elements'>Disappearing Elements</a>
 
-## <a name='drag_and_drop'>Drag and Drop</a>
+### <a name="drag_and_drop"> TIH1_drag_and_drop</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/drag_and_drop'>Drag and Drop</a>
 
-## <a name='dropdown'>Dropdown</a>
+### <a name="dropdown"> TIH1_dropdown</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/dropdown'>Dropdown</a>
 
-## <a name='dynamic_content'>Dynamic Content</a>
+### <a name="dynamic_content"> TIH1_dynamic_content</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/dynamic_content'>Dynamic Content</a>
 
-## <a name='dynamic_controls'>Dynamic Controls</a>
+### <a name="dynamic_controls"> TIH1_dynamic_controls</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/dynamic_controls'>Dynamic Controls</a>
 
-## <a name='dynamic_loading'>Dynamic Loading</a>
+### <a name="download"> TIH1_download</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/dynamic_loading'>Dynamic Loading</a>
 
-## <a name='download'>File Download</a>
+### <a name="download"> TIH1_download</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/download'>File Download</a>
 
-## <a name='upload'>File Upload</a>
+### <a name="upload"> TIH1_upload</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/upload'>File Upload</a>
 
-## <a name='forgot_password'>Forgot Password</a>
+### <a name="forgot_password"> TIH1_forgot_password</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/forgot_password'>Forgot Password</a>
 
-## <a name='frames'>Frames</a>
+### <a name="login"> TIH1_login</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/login'>Form Authentication</a>
 
-## <a name='frames'>Frames</a>
+### <a name="frames"> TIH1_frames</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/frames'>Frames</a>
 
-## <a name='geolocation'>Geolocation</a>
+### <a name="geolocation"> TIH1_geolocation</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/geolocation'>Geolocation</a>
 
-## <a name='hovers'>Hovers</a>
+### <a name="hovers"> TIH1_hovers</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/hovers'>Hovers</a>
 
-## <a name='jqueryui/menu'>JQuery UI Menus</a>
+### <a name="jqueryui"> TIH1_jqueryui</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/jqueryui/menu'>JQuery UI Menus</a>
 
-## <a name='javascript_alerts'>JavaScript Alerts</a>
+### <a name="javascript_alerts"> TIH1_javascript_alerts</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/javascript_alerts'>JavaScript Alerts</a>
 
-## <a name='javascript_error'>JavaScript onload event error</a>
+### <a name="javascript_error"> TIH1_javascript_error</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/javascript_error'>JavaScript onload event error</a>
 
-## <a name='key_presses'>Key Presses</a>
+### <a name="key_presses"> TIH1_key_presses</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/key_presses'>Key Presses</a>
 
-## <a name='large'>Large & Deep DOM</a>
+### <a name="large"> TIH1_large</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/large'>Large & Deep DOM</a>
 
-## <a name='windows'>Multiple Windows</a>
+### <a name="windows"> TIH1_windows</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/windows'>Multiple Windows</a>
 
-## <a name='nested_frames'>Nested Frames</a>
+### <a name="nested_frames"> TIH1_nested_frames</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/nested_frames'>Nested Frames</a>
 
-## <a name='notification_message'>Notification Messages</a>
+### <a name="notification_message"> TIH1_notification_message</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/notification_message'>Notification Messages</a>
 
-## <a name='redirector'>Redirect Link</a>
+### <a name="redirector"> TIH1_redirector</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/redirector'>Redirect Link</a>
 
-## <a name='download_secure'>Secure File Download</a>
+### <a name="download_secure"> TIH1_download_secure</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/download_secure'>Secure File Download</a>
 
-## <a name='shifting_content'>Shifting Content</a>
+### <a name="shifting_content"> TIH1_shifting_content</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/shifting_content'>Shifting Content</a>
 
-## <a name='slow'>Slow Resources</a>
+### <a name="slow"> TIH1_slow</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/slow'>Slow Resources</a>
 
-## <a name='tables'>Sortable Data Tables</a>
+### <a name="tables"> TIH1_tables</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/tables'>Sortable Data Tables</a>
 
-## <a name='status_codes'>Status Codes</a>
+### <a name="status_codes"> TIH1_status_codes</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/status_codes'>Status Codes</a>
 
-## <a name='typos'>Typos</a>
+### <a name="typos"> TIH1_typos</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/typos'>Typos</a>
 
-## <a name='tinymce'>WYSIWYG Editor</a>
+### <a name="tinymce"> TIH1_tinymce</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/tinymce'>WYSIWYG Editor</a>
 
 <a name='#tinymce'>WYSIWYG Editor</a>
