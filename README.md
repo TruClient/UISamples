@@ -149,13 +149,12 @@ http://www.Lightstreamer.com/demos
 demos a server that manages asynchronous WebRTC traffic, which is fast.
 
 
-<hr />
-
-### <a name="Appcelerator"></a> Appcelerator (ACL1)
-
+### <a name="NotIncluded"></a> Not Included
+Appcelerator (ACL1)
 uses its Aptana IDE to develop JavaScript, which is compiled into native code.
+So communication with servers is not in JavaScript and thus not within the scope of TruClient.
 
-
+<hr />
 
 ## <a name="ResponsiveFrameworkDemos"></a> "Responsive" web development framework demos
 
