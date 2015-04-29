@@ -77,3 +77,58 @@ is created only when there is a script that goes in it.
  <p>
  * Contacts,
  
+
+|	Accordion	|		|
+|	Autocomplete	|		|
+|	Breadcrumb	|		|
+|	Button	|		|
+|	Calendar	|		|
+|	Chart	|		|
+|	Checkbox	|		|
+|	Color Picker	|		|
+|	Combo box	|		|
+|	Date Time Picker	|		|
+|	Datepicker	|		|
+|	Dialog Layout	|		|
+|	Drop-down List	|		|
+|	Editor	|		|
+|	File Download	|		|
+|	File Upload	|		|
+|	Form	|		|
+|	Galleria	|		|
+|	Grid	|		|
+|	Lightbox	|		|
+|	Masked Input	|		|
+|	Menu	|		|
+|	Multi-select	|		|
+|	Navigation Bar	|		|
+|	Number input	|		|
+|	Paginator	|		|
+|	Password Input	|		|
+|	Pop-up (Growl)	|		|
+|	Progress bar	|		|
+|	Radio Group	|		|
+|	Range Selector	|		|
+|	Rating	|		|
+|	Scroll Bar	|		|
+|	Scroll View	|		|
+|	Slide show	|		|
+|	Slider	|		|
+|	Spinner	|		|
+|	Tabs	|		|
+|	Time Picker	|		|
+|	Toolbar	|		|
+|	Tooltip	|		|
+|	Tree Grid	|		|
+|	Tree view	|		|
+|	Window	|		|
+|	Camera	|	Mobile	|
+|	Video	|	Mobile	|
+|	Voice recording	|	Mobile	|
+|	Phone	|	Mobile	|
+|	SMS	|	Mobile	|
+|	Voice recording	|	Mobile	|
+|	Battery Status?	|	Mobile	|
+|	Accelerometer	|	Mobile	|
+|	GPS	|	Mobile	|
+|	Contacts	|	Mobile	|
