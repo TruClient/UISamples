@@ -24,7 +24,6 @@ Folder names are in brackets mentioned below.
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
-----
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
 http://www.myloadtest.com/training/correlation-challenge/
