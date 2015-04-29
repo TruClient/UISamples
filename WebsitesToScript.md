@@ -10,7 +10,7 @@ B). **[Demo pages](#DemoPages)** containing a generic implementation of framewor
 We script them to provide a "heads up" on difficulties that might be encountered 
 in real apps built with each framework listed here.
 
-C). **[Real Famous websites(#RealFamousSites)**
+C). **[Real Famous websites](#RealFamousSites)**
 created by creative agencies with unique features that we should be able to control in TruClient scripts.
 
 Scripts (and explanation of scripts) for each challenge or demo is in a separate folder in this repo.
