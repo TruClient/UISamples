@@ -1,0 +1,37 @@
+
+
+ <li><a href='/abtest'>A/B Testing</a></li>
+  <li><a href='/basic_auth'>Basic Auth</a> (user and pass: admin)</li>
+  <li><a href='/broken_images'>Broken Images</a></li>
+  <li><a href='/challenging_dom'>Challenging DOM</a></li>
+  <li><a href='/checkboxes'>Checkboxes</a></li>
+  <li><a href='/context_menu'>Context Menu</a></li>
+  <li><a href='/disappearing_elements'>Disappearing Elements</a></li>
+  <li><a href='/drag_and_drop'>Drag and Drop</a></li>
+  <li><a href='/dropdown'>Dropdown</a></li>
+  <li><a href='/dynamic_content'>Dynamic Content</a></li>
+  <li><a href='/dynamic_controls'>Dynamic Controls</a></li>
+  <li><a href='/dynamic_loading'>Dynamic Loading</a></li>
+  <li><a href='/download'>File Download</a></li>
+  <li><a href='/upload'>File Upload</a></li>
+  <li><a href='/forgot_password'>Forgot Password</a></li>
+  <li><a href='/login'>Form Authentication</a></li>
+  <li><a href='/frames'>Frames</a></li>
+  <li><a href='/geolocation'>Geolocation</a></li>
+  <li><a href='/hovers'>Hovers</a></li>
+  <li><a href='/jqueryui/menu'>JQuery UI Menus</a></li>
+  <li><a href='/javascript_alerts'>JavaScript Alerts</a></li>
+  <li><a href='/javascript_error'>JavaScript onload event error</a></li>
+  <li><a href='/key_presses'>Key Presses</a></li>
+  <li><a href='/large'>Large & Deep DOM</a></li>
+  <li><a href='/windows'>Multiple Windows</a></li>
+  <li><a href='/nested_frames'>Nested Frames</a></li>
+  <li><a href='/notification_message'>Notification Messages</a></li>
+  <li><a href='/redirector'>Redirect Link</a></li>
+  <li><a href='/download_secure'>Secure File Download</a></li>
+  <li><a href='/shifting_content'>Shifting Content</a></li>
+  <li><a href='/slow'>Slow Resources</a></li>
+  <li><a href='/tables'>Sortable Data Tables</a></li>
+  <li><a href='/status_codes'>Status Codes</a></li>
+  <li><a href='/typos'>Typos</a></li>
+  <li><a href='/tinymce'>WYSIWYG Editor</a></li>
