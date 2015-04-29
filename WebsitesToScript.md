@@ -1,6 +1,6 @@
 This page describes the websites that we think would be interesting to script.
 
-Apps being tested by scripts are of two types:
+Apps being tested by scripts are of three types:
 
 A). **[Challenge pages](#ChallengeApps)** containing examples of technologies that might be encountered on real sites.
 We script them to experience insight into how to script on real sites,
