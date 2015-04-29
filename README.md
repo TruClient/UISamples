@@ -34,7 +34,8 @@ This was before TruClient became available.
 
 ### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
 http://the-internet.herokuapp.com/
-is a website constructed by a Selenium functional test automation guru Dave Haeffner.
+is a website constructed by a Selenium functional test automation guru Dave Haeffner
+(http://davehaeffner.com).
 
 Source code used to build the website is at 
 https://github.com/tourdedave/the-interne 
@@ -50,38 +51,12 @@ http://elementalselenium.com/tips/45-checkboxes.
 The TruClient scripting technology associated with HP LoadRunner addresses apps which are driven by **JavaScript**.
 (The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
-There are several types of demo framework samples:
+There are several types of demo framework samples, listed by highst current hotness:
 
-* <a href="#DesktopJSFrameworkDemos"> "Responsive" web development frameworks</a>
-* <a href="#HybridMobileFrameworkDemos"> Hybrid mobile app development frameworks</a>
-
-
-## <a name="DesktopJSFrameworkDemos"></a> "Responsive" web development frameworks
-
-* <a href="#Bootstrap"> Bootstrap</a>
-
-
-### <a name="Bootstrap"></a> Bootstrap Responsive web developmenet framework
-
-http://getbootstrap.com/examples/theme/
-provides a demo page showing how the whole range of UI elements look when built using 
-Bootstrap.JS downloaded from 
-or (more commonly) referenced from a CDN in HTML.
-However the page doesn't have code to respond to user actions mimic'd by TruClient automation scripts.
-
-http://expo.getbootstrap.com/
-and http://builtwithbootstrap.com/
-provide a showcase of real sites built using the library. 
-
-The library began within Twitter, and enabled made it humanly possible to create responsive websites
-by changing a few HTML properties. This simplicity is made possible by limiting how much space each column
-takes by allocating 12 slots among all boxes. 
-
-Bootstrap depends on jQuery and Grunt utilities.
-
-<!-- http://www.williamghelfi.com/blog/2013/09/12/my-first-bootstrap-theme-with-themestrap/
--->
-<hr />
+* <a href="#HybridMobileFrameworkDemos"> Hybrid mobile app development framework demos</a>
+* <a href="#ResponsiveFrameworkDemos"> "Responsive" web development framework demos</a>
+* <a href="#DesktopJSFrameworkDemos"> Desktop web development framework demos</a>
+* <a href="#ASP.NETFrameworkDemos"> Desktop ASP.NET web development framework demos</a>
 
 ## <a name="HybridMobileFrameworkDemos"></a> Hybrid app development framework demos
 
@@ -90,6 +65,7 @@ Bootstrap depends on jQuery and Grunt utilities.
 * <a href="#SenchaSpace"> SenchaSpace</a>
 * <a href="#Trigger.io"> Trigger.io</a>
 * <a href="#Worklight"> Worklight</a>
+* <a href="#Lightstreamer"> Lightstreamer</a>
  
 These frameworks create apps that don't require users to update their app.
 Since JavaScript is dynamically sent from the server, apps can be updated dynamically
@@ -166,6 +142,13 @@ extends PhoneGap (Apache Cordova) with additional development tools and server s
 notes that Worklight access more native controls than PhoneGap 
 (Options Menu, busy indicator, tabbars, etc).
 
+
+### <a name="Lightstreamer"></a> Lightstreamer
+
+http://www.Lightstreamer.com/demos
+demos a server that manages asynchronous WebRTC traffic, which is fast.
+
+
 <hr />
 
 ### <a name="Appcelerator"></a> Appcelerator (ACL1)
@@ -173,3 +156,60 @@ notes that Worklight access more native controls than PhoneGap
 uses its Aptana IDE to develop JavaScript, which is compiled into native code.
 
 
+
+## <a name="ResponsiveFrameworkDemos"></a> "Responsive" web development framework demos
+
+* <a href="#Bootstrap"> Bootstrap</a>
+
+
+### <a name="Bootstrap"></a> Bootstrap Responsive web developmenet framework
+
+http://getbootstrap.com/examples/theme/
+provides a demo page showing how the whole range of UI elements look when built using 
+Bootstrap.JS downloaded from 
+or (more commonly) referenced from a CDN in HTML.
+However the page doesn't have code to respond to user actions mimic'd by TruClient automation scripts.
+
+http://expo.getbootstrap.com/
+and http://builtwithbootstrap.com/
+provide a showcase of real sites built using the library. 
+
+The library began within Twitter, and enabled made it humanly possible to create responsive websites
+by changing a few HTML properties. This simplicity is made possible by limiting how much space each column
+takes by allocating 12 slots among all boxes. 
+
+Bootstrap depends on jQuery and Grunt utilities.
+
+<!-- http://www.williamghelfi.com/blog/2013/09/12/my-first-bootstrap-theme-with-themestrap/
+-->
+
+<hr />
+
+## <a name="DesktopJSFrameworkDemos"></a> Desktop web development framework demos
+
+A.	http://jqueryui.com/demos
+B.	http://www.jqwidgets.com/jquery-widgets-demo (built on top of jquery)
+
+C.	Bootstrap
+D.	http://demos.telerik.com/kendo-ui/web/overview/index.html
+
+E.	http://zinoui.com/demos 
+F.	http://dhtmlx.com/docs/products/index.shtml (complete interfaces like spreadsheet, scheduler, Gantt chart, Geo Explorer, etc.)
+G.	http://www.primefaces.org/primeui/demo.html 
+
+H.	http://madrobby.github.io/scriptaculous/demos 
+I.	http://www.prototype-ui.com (built on scriptaculous)
+J.	http://livepipe.net (built on prototype)
+K.	http://www.sencha.com/products/extjs/examples 
+L.	http://www.greensock.com/gsap-js focuses on animation
+M.	http://wijmo.com/demo/explore/  (many charts)
+
+
+## <a name="ASP.NETFrameworkDemos"></a> Desktop ASP.NET web development framework demos
+
+*	http://demos.telerik.com/aspnet-ajax (kendo UI)
+*	https://demos.devexpress.com/ASP/ 
+*	http://aspnetajax.componentart.com 
+*	http://demo.componentone.com/ASPNET/ControlExplorer/ 
+*	http://demo.aspnetawesome.com 
+*	https://codeontime.com/demo
