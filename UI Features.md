@@ -63,21 +63,8 @@ is created only when there is a script that goes in it.
  
  
 ## <a name="MobileCapabilities"></a> Mobile Capabilities:
- 
- * Camera, 
- * Video, 
- * Voice recording,
- * Phone,
- * SMS, 
- * Voice recording,
-<p> 
- * Battery Status?,
- * Accelerometer,
- * GPS,
- <p>
- * Contacts,
- 
-
+|	Folder	|	Type	|
+|	---------	|	------	|
 |	Accordion	|		|
 |	Autocomplete	|		|
 |	Breadcrumb	|		|
