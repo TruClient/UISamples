@@ -66,6 +66,10 @@ This page contains notes about each sample page at http://the-internet.herokuapp
 ### <a name="drag_and_drop"> TIH1_drag_and_drop</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/drag_and_drop'>Drag and Drop</a>
 
+  Action: Drag A and drop on B.
+
+  Verification: 
+    
 ### <a name="dropdown"> TIH1_dropdown</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/dropdown'>Dropdown</a>
 
@@ -143,7 +147,19 @@ This page contains notes about each sample page at http://the-internet.herokuapp
 
 ### <a name="status_codes"> TIH1_status_codes</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/status_codes'>Status Codes</a>
+  has links that returns different responses codes in the HTTP header:
 
+*   200 = Normal
+*   301 = Security fail
+*   404 = Resource not found
+*   500 = Server fail
+
+  Verification: The script needs to look in the HTTP response header.
+
+  Selenium coders look at
+  <a target="_blank" href='http://elementalselenium.com/tips/17-retrieve-http-status-codes'>
+  How to Test HTTP Status Codes</a>
+  
 ### <a name="typos"> TIH1_typos</a>
 
   <a target="_blank" href='http://the-internet.herokuapp.com/typos'>Typos</a>
