@@ -2,6 +2,9 @@ This repo holds TruClient scripts created as examples of how to create scripts o
 
 Scripts are in various **folders**, one folder for each UI feature/capability in [UI Features.md](UI Features.md).
 
+For example, within folder **Tooltip** is script folder **UI01_Tooltip_TCFF120_v01**.
+Inside that folder is a **.usr** file that one clicks to invoke VuGen to edit that file.
+
 Each script name is prefixed by a code for the website being scripted, listed in [WebsitesToScript.md](WebsitesToScript.md). 
 
 What we would like to see in the script, and how to create a script is described in [Scripting.md](Scripting.md).
