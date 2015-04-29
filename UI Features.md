@@ -5,9 +5,8 @@ is created only when there is a script that goes in it.
 Names of elements may be my invention, since each framework may have a different name for the same feature.
 
 The table below is copied from a spreadsheet.
-
 |	Folder	|	Type	|	Note	|	TIH1	|
-|	---------	|	------	|	-------	|		|
+|	---------	|	------	|	-------	|	----	|
 |	Accordion	|		|		|		|
 |	Autocomplete	|		|		|		|
 |	Breadcrumb	|		|		|		|
@@ -97,3 +96,4 @@ The table below is copied from a spreadsheet.
 |	status_codes	|		|		|	TIH1	|
 |	typos	|		|		|	TIH1	|
 |	WYSIWYG Editor	|		|		|	TIH1	|
+
