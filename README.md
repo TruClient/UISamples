@@ -62,11 +62,24 @@ Here are the manual steps the script should emulate:
    
 9. Rerun page to show different information with the modified User-Agent.
 
+<!--
 #### <a name="CreditCardChallenge"></a> MyLoadTest Credit Card Challenge
 http://www.myloadtest.com/credit-card-challenge/
+has an error.
+-->
 
 #### <a name="BasicAJAXChallenge"></a> MyLoadTest basic AJAX application
 http://www.myloadtest.com/scripting-exercise-a-basic-ajax-application/
+from 2006 uses Google Suggest at
+https://www.google.com/webhp?complete=1&hl=en&gws_rd=ssl.
+
+Whatever one types in the text field in the middle, Google now puts users at the address bar.
+
+Can TruClient handle this?
+
+See [MLT1_Search_Google_TCFF1202_v01](MLT1_Search_Google_TCFF1202_v01)
+
+
 
 #### <a name="UniqueUsernamese"></a> MyLoadTest Unique Usernames Challenge
 http://www.myloadtest.com/scripting-exercise-unique-usernames/
