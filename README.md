@@ -26,11 +26,22 @@ Folder names are in brackets mentioned below.
 
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
-http://www.myloadtest.com/training/correlation-challenge/
-was developed by LoadRunner master Stuart Moncrieff (in Melbourne, Australia)
+was developed by LoadRunner master Stuart Moncrieff (of Melbourne, Australia)
 for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
+Here are the manual steps the script should emulate:
+1. Begin at http://www.myloadtest.com/training/correlation-challenge/
+2. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
+3. Input the number in the text field and click Next.
+4. At the "Step 2" screen: Leave the drop-down list set to its default value, and press Next.
+   Capture the table returned.
+5. At the "Step 3" screen: For each row containing "In Stock" under the Availability column heading, 
+   check the corresponding column's Select checkbox. Press next.
+   This is perhaps the most difficult part of the charllenge becuase it involves correspondance between rows.
+   Capture some "complicated things" in the HTML returned for the next screen.
+6. At the "Step 4" screen: Manually determine what is unsaid. Click Next. 
+7. The challenge is complete.
 
 ### <a name="TheInternet"></a> TIH1 = The Internet on Herokuapp Challenge
 http://the-internet.herokuapp.com/
