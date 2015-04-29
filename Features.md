@@ -1,4 +1,6 @@
-This page lists the UI features to be tested by scripts.
+Github naturally sorts folders in the repository in alphabetical order.
+
+However, this page lists the UI features to be tested by scripts.
 
 * <a href="#CommonUIFeatures"> Common UI Elements</a>
 * <a href="#AdvancedUIFeatures"> Advanced UI Elements</a>
@@ -8,7 +10,7 @@ TODO: I am working on a database driven app to manage details on this page, and 
 
 Names of elements may be my invention, since each framework may have a different name for the same feature.
 
- ## <a name="CommonUIFeatures"></a> Common UI Elements:
+## <a name="CommonUIFeatures"></a> Common UI Elements:
  
  * Checkbox
  * Radio Button
