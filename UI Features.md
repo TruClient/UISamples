@@ -11,7 +11,8 @@ Names of elements may be my invention, since each framework may have a different
 ## <a name="Alphabetically"></a> UI Elements Listed Alphabetical:
 
 Github naturally sorts folders in the repository in alphabetical order.
-To avoid yanking your chain with empty folders, each folder is created only when there is a script that goes in it.
+To avoid yanking your chain with empty folders, each of the 43 folders below
+is created only when there is a script that goes in it.
 
 *	Accordion
 *	Autocomplete
