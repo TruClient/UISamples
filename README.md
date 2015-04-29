@@ -214,6 +214,7 @@ L).	http://www.greensock.com/gsap-js focuses on animation
 
 M).	http://wijmo.com/demo/explore/  (many charts)
 
+<hr />
 
 ## <a name="ASP.NETFrameworkDemos"></a> Desktop ASP.NET web development framework demos
 
