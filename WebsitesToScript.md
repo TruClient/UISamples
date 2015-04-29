@@ -1,4 +1,4 @@
-This page describes the websites that we think should be interesting script.
+This page describes the websites that we think would be interesting to script.
 
 Apps being tested by scripts are of two types:
 
