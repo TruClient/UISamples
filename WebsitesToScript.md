@@ -291,6 +291,13 @@ M).	http://wijmo.com/demo/explore/  (many charts)
 
 # <a name="RealFamousSites"></a> Real Famous websites
 
-SitePoint.com
+Several blogs identify notable examples of mobile web experiences:
 
+* http://blog.hubspot.com/marketing/mobile-website-design-examples
+* SitePoint.com
+* hothomepages.com
+
+Let's see how well famous sites can be scripted using TruClient.
+
+* http://wikiwand.com presents wikipedia articles in larger fonts and bolder layouts.
 
