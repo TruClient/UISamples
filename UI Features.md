@@ -20,14 +20,14 @@ TIH1 and other columns are described in [WebsitesToScript.md](WebsitesToScript.m
 
 <hr />
 
-|	Folder	|	Type	|	Note	|	TIH1	|	Other	|
+|	Folder	|	Type	|	Note	|	[TIH1](UIFeatures.md)	|	Other	|
 |	---------	|	------	|	-------	|	----	|	----	|
 |	abtest = A/B Testing	|		|		|	TIH1	|		|
 |	Accelerometer	|	Mobile	|		|		|		|
 |	Accordion	|		|		|		|		|
 |	Audio	|		|		|		|		|
 |	Autocomplete	|		|		|		|		|
-|	basic_auth	|		|	 (user id and password: admin)	|	TIH1	|		|
+|	basic_auth	|		|		|	TIH1	|		|
 |	Battery Status	|	Mobile	|	avail. on iOS?	|		|		|
 |	Breadcrumb	|		|		|		|		|
 |	broken_images	|		|		|	TIH1	|		|
