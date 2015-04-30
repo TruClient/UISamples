@@ -29,10 +29,10 @@ Folder names are in brackets mentioned below.
 
 ### <a name="HPStormObjID"></a> HPS1 = HP StormRunner Sample Pages for Custom Object Identification 
 
-    * <a href="#HP_List"> HP List</a>
-    * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
-    * <a href="#HP_Clickable_Table"> Clickable Table</a>
-    * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
+ * <a href="#HP_List"> HP List</a>
+ * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
+ * <a href="#HP_Clickable_Table"> Clickable Table</a>
+ * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
 
 #### <a name="HP_List"></a> List
 
@@ -53,11 +53,18 @@ It recommends a for loop to iterate over links in a web page with ID method set 
   ```
   For ( var i = 0 ; i < 8 ; i++ )
   ```
+
+The loop is constructed by
+
+<img src=""></a>
+
+Other steps are placed within this loop.
+
   
   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
 
     ```
-    evalXPath("//li[text()=\"" + ArgsContext.TC.getParam ("LinkText") + "\"]");
+    evalXPath("//li[text()=\"" + ArgsContext.TC.getParam("LinkText") + "\"]");
     ```
 
   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links2.rar
