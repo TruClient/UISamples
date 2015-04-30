@@ -8,11 +8,10 @@ is created only when there is a script that goes in it.
 Each framework may have a different name for the same feature,
 so I may have taken liberties with the names of folders/features.
 
+The table below is copied from an Excel spreadsheet for easier sorting.
 Github naturally sorts folders in alphabetical order, so that's how they are presented here.
 
-The table below is copied from an Excel spreadsheet for easier sorting.
-
-The **Type** values are:
+Values under the **Type** are:
 
  * **Mobile** - capabilties only avaialable in mobile smart phones.
  * **Widget** - a UI control that bring the richness of desktop applications to the Web.
