@@ -54,6 +54,10 @@ Techniques to script these pages begin from page 726 of the LoadRunner 12.02 Use
 where sample scripts are available (as rar files openable by WinZip).
 It recommends a for loop to iterate over links in a web page with ID method set to JavaScript.
 
+  ```
+  For ( var i = 0 ; i < 8 ; i++ )
+  ```
+  
   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
 
     ```
@@ -69,6 +73,13 @@ It recommends a for loop to iterate over links in a web page with ID method set 
 
     ```
     evalXPath("/html/body/ul/li[" + ArgsContext.i + "]/a");
+    ```
+
+  * **Descriptors Editor** is used in sample script 
+  http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links4.rar
+
+    ```
+    ArgsContext.i
     ```
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
