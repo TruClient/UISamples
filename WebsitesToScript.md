@@ -46,39 +46,47 @@ Folder names are in brackets mentioned below.
       <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
       ```
 
-Techniques to script this begin from page 726 of the LoadRunner 12.02 User Guide,
-where sample scripts are available (as rar files openable by WinZip).
-It recommends a for loop to iterate over links in a web page with ID method set to JavaScript.
+Techniques to script this begin from page 726 of the LoadRunner 12.02 User Guide.
+It recommends a for loop to iterate over links in the web page.
 
   ```
   For ( var i = 0 ; i < 8 ; i++ )
   ```
 
-The loop is constructed by
+This loop is constructed by 
 
 <img src=""></a>
 
 Other steps are placed within this loop.
 
-  
-  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
+with ID method set to JavaScript.
+
+
+Scripts constructed using the steps above are made available as different 
+in a single script **HPSR1_list_loop_TCFF1202_v01**.
+
+as rar files (openable by WinZip) from these links in the User Guide, or 
+
+  * **1-EvalXPathMatchParam** http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
 
     ```
     evalXPath("//li[text()=\"" + ArgsContext.TC.getParam("LinkText") + "\"]");
     ```
 
-  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links2.rar
+  * **2-EvalXPathArgsContext** 
+  http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links2.rar
   
     ```
     evalXPath("//li[text()=\"Link " + ArgsContext.i + " - this is an example\"]");
   ```
-  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links3.rar
+  * **3-EvalXPath_DOM_ArgsContext** 
+  http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links3.rar
 
     ```
     evalXPath("/html/body/ul/li[" + ArgsContext.i + "]/a");
     ```
 
-  * **Descriptors Editor** is used in sample script 
+  * **4-Descriptors_Editor** is used in sample script 
   http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links4.rar
 
     ```
