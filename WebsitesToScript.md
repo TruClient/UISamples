@@ -42,7 +42,11 @@ Here are the manual steps the script should emulate:
       ```
       web_add_auto_filter("Action=Exclude", "Host=www.google-analytics.com", LAST);
       ```
-
+  In TruClient use:
+  
+  ```
+  Utils.addAutoFilter("https://www.google-analytics.com/*", false);
+  ```
 2. Begin recording at URL http://www.myloadtest.com/training/correlation-challenge/
 
 3. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
