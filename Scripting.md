@@ -53,12 +53,17 @@ PROTIP: Here is the scripting process with some suggestions:
   temporarily wrap the steps within an **if (false)** action
    so it doesn't execute.
 
-11. Add a watch for error messages that fail a script run if found.
+11. Add a watch for error messages that, if found, should fail a script iteration or the whole run.
+    These are call "negative" transactions.
 
-12. Add data parameters in CSV files or (better yet) in a VTS (Virtual Table Server).
+12. Finish what you start. If you Signed in, sign out at the end of the iteration.
+    That's unless you want to purposely leave it to see what happens to memory usage.
 
-13. Exit VuGen and **zip up** the script each time you reach an achievement.
+13. Add data parameters in CSV files or (better yet) in a VTS (Virtual Table Server).
 
-14. Review the script with a colleague.
+14. Exit VuGen and **zip up** the script each time you reach an achievement.
+
+15. Review the script with a colleague.
+    Both of you will probably learn something new.
 
 The TruClient Hands-On Tutorial takes you through the above step-by-step.
