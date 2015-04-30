@@ -2,7 +2,7 @@ This page describes the websites that we think would be interesting to script.
 
 Apps being tested by scripts are of three types:
 
-A). **[Challenge pages](#ChallengeApps)** containing examples of technologies that might be encountered on real sites.
+A). **[Challenge pages](#ChallengeApps)** are presented as having known difficulties to tools for automation.
 We script them to experience insight into how to script on real sites,
 so that we can script real sites faster and better, while we are not in emergency mode.
 
@@ -23,9 +23,25 @@ Folder names are in brackets mentioned below.
 
 # <a name="ChallengeApps"></a> Challenge apps
 
+* <a href="#HHPStormObjID"> **HPS1** = HP StormRunner Sample Pages for Custom Object Identification</a>
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
+### <a name="HPStormObjID"></a> HPS1 = HP StormRunner Sample Pages for Custom Object Identification 
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
+     Use [Michal - fill script name] with this page to learn how to iterate through links list. 
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
+      generates dynamic table when pressing the 'Refresh' button. 
+      Use [Michal - fill script name] with this page to learn how to toggle the selected cell state. 
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
+     Clickable Tables page generates dynamic table when the 'Refresh' button is pressed. 
+   Use [Michal - fill script name] with this page to learn how to close an open state cell. 
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
+     generates a random number when the generate button is pressed. 
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
 http://www.myloadtest.com/loadrunner-correlation-exercise/
