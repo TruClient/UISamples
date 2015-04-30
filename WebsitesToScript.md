@@ -23,11 +23,18 @@ Folder names are in brackets mentioned below.
 
 # <a name="ChallengeApps"></a> Challenge apps
 
-* <a href="#HHPStormObjID"> **HPS1** = HP StormRunner Sample Pages for Custom Object Identification</a>
+* <a href="#HPStormObjID"> **HPS1** = HP StormRunner Sample Pages for Custom Object Identification</a>
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
 ### <a name="HPStormObjID"></a> HPS1 = HP StormRunner Sample Pages for Custom Object Identification 
+
+    * <a href="#HP_List"> HP List</a>
+    * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
+    * <a href="#HP_Clickable_Table"> Clickable Table</a>
+    * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
+
+#### <a name="HP_List"></a> List
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
      has a list of 9 items.
@@ -38,14 +45,19 @@ Folder names are in brackets mentioned below.
       <div class="item-list">
       <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
       ```
+#### <a name="HP_Dynamic_Table"></a> Dynamic Table
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
       generates dynamic table when pressing the 'Refresh' button. 
       Use [Michal - fill script name] with this page to learn how to toggle the selected cell state. 
 
+#### <a name="HP_Clickable_Table"></a> Clickable Table
+
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
-     Clickable Tables page generates dynamic table when the 'Refresh' button is pressed. 
+     Clickable Table page generates dynamic table when the 'Refresh' button is pressed. 
    Use [Michal - fill script name] with this page to learn how to close an open state cell. 
+
+#### <a name="HP_Dynamic_Value"></a> Dynamic Value
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
      generates a random number when the generate button is pressed. 
