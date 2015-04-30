@@ -23,7 +23,7 @@ Folder names are in brackets mentioned below.
 
 # <a name="ChallengeApps"></a> Challenge apps
 
-* <a href="#HPStormObjID"> **HPS1** = HP StormRunner Sample Pages for Custom Object Identification</a>
+* <a href="#HPStormObjID"> **HPSR1** = HP StormRunner Sample Pages for Custom Object Identification</a>
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
@@ -45,24 +45,8 @@ Folder names are in brackets mentioned below.
       <div class="item-list">
       <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
       ```
-#### <a name="HP_Dynamic_Table"></a> Dynamic Table
 
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
-      generates dynamic table when pressing the 'Refresh' button. 
-      Use [Michal - fill script name] with this page to learn how to toggle the selected cell state. 
-
-#### <a name="HP_Clickable_Table"></a> Clickable Table
-
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
-     Clickable Table page generates dynamic table when the 'Refresh' button is pressed. 
-   Use [Michal - fill script name] with this page to learn how to close an open state cell. 
-
-#### <a name="HP_Dynamic_Value"></a> Dynamic Value
-
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
-     generates a random number when the generate button is pressed. 
-
-Techniques to script these pages begin from page 726 of the LoadRunner 12.02 User Guide,
+Techniques to script this begin from page 726 of the LoadRunner 12.02 User Guide,
 where sample scripts are available (as rar files openable by WinZip).
 It recommends a for loop to iterate over links in a web page with ID method set to JavaScript.
 
@@ -93,6 +77,26 @@ It recommends a for loop to iterate over links in a web page with ID method set 
     ```
     ArgsContext.i
     ```
+
+
+#### <a name="HP_Dynamic_Table"></a> Dynamic Table
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
+      generates dynamic table when pressing the 'Refresh' button. 
+      Use [Michal - fill script name] with this page to learn how to toggle the selected cell state. 
+
+#### <a name="HP_Clickable_Table"></a> Clickable Table
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
+     Clickable Table page generates dynamic table when the 'Refresh' button is pressed. 
+   Use [Michal - fill script name] with this page to learn how to close an open state cell. 
+
+#### <a name="HP_Dynamic_Value"></a> Dynamic Value
+
+   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
+     generates a random number when the generate button is pressed. 
+
+
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
 http://www.myloadtest.com/loadrunner-correlation-exercise/
