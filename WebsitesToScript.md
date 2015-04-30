@@ -36,7 +36,7 @@ Folder names are in brackets mentioned below.
       ```
       <div class="container"  style="padding-left:20% !important">
       <div class="item-list">
-          <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
+      <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
       ```
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
@@ -49,6 +49,27 @@ Folder names are in brackets mentioned below.
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
      generates a random number when the generate button is pressed. 
+
+Techniques to script these pages begin from page 726 of the LoadRunner 12.02 User Guide,
+where sample scripts are available (as rar files openable by WinZip).
+It recommends a for loop to iterate over links in a web page with ID method set to JavaScript.
+
+  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
+
+    ```
+    evalXPath("//li[text()=\"" + ArgsContext.TC.getParam ("LinkText") + "\"]");
+    ```
+
+  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links2.rar
+  
+    ```
+    evalXPath("//li[text()=\"Link " + ArgsContext.i + " - this is an example\"]");
+  ```
+  * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links3.rar
+
+    ```
+    evalXPath("/html/body/ul/li[" + ArgsContext.i + "]/a");
+    ```
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
 http://www.myloadtest.com/loadrunner-correlation-exercise/
