@@ -30,7 +30,14 @@ Folder names are in brackets mentioned below.
 ### <a name="HPStormObjID"></a> HPS1 = HP StormRunner Sample Pages for Custom Object Identification 
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
+     has a list of 9 items.
      Use [Michal - fill script name] with this page to learn how to iterate through links list. 
+
+      ```
+      <div class="container"  style="padding-left:20% !important">
+      <div class="item-list">
+          <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
+      ```
 
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
       generates dynamic table when pressing the 'Refresh' button. 
