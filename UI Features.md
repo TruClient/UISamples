@@ -20,7 +20,7 @@ TIH1 and other columns are described in [WebsitesToScript.md](WebsitesToScript.m
 
 <hr />
 
-|	Folder	|	Type	|	Note	|	[TIH1](UIFeatures.md)	|	Other	|
+|	Folder	|	Type	|	Note	|	[TIH1](UI Features.md)	|	Other	|
 |	---------	|	------	|	-------	|	----	|	----	|
 |	abtest = A/B Testing	|		|		|	TIH1	|		|
 |	Accelerometer	|	Mobile	|		|		|		|
