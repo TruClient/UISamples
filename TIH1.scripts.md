@@ -85,6 +85,8 @@ This page contains notes about each sample page at http://the-internet.herokuapp
 ### <a name="download"> TIH1_download</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/download'>File Download</a>
 
+  Selenium coders look at http://elementalselenium.com/tips/15-download-secure-files
+
 ### <a name="upload"> TIH1_upload</a>
   <a target="_blank" href='http://the-internet.herokuapp.com/upload'>File Upload</a>
 
