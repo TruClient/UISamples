@@ -40,31 +40,25 @@ Folder names are in brackets mentioned below.
      has a list of 9 items.
      Use [Michal - fill script name] with this page to learn how to iterate through links list. 
 
-      ```
-      <div class="container"  style="padding-left:20% !important">
-      <div class="item-list">
-      <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
-      ```
+```
+<div class="container"  style="padding-left:20% !important">
+  <div class="item-list">
+    <a href="empty.html"><div class="item"><ul class="list-item"><li>Link 1 - this is an example</li></ul></div></a>
+```
 
 Techniques to script this begin from page 726 of the LoadRunner 12.02 User Guide.
 It recommends a for loop to iterate over links in the web page.
 
   ```
-  For ( var i = 0 ; i < 8 ; i++ )
+  For ( var i = 1 ; i < 9 ; i++ )
   ```
 
-This loop is constructed by 
-
-<img src=""></a>
+This loop can be constructed by drag-and-drop within TruClient.
 
 Other steps are placed within this loop.
 
-with ID method set to JavaScript.
-
-
 Scripts constructed using the steps above are made available as different 
-in a single script **HPSR1_list_loop_TCFF1202_v01**.
-
+in my script **HPSR1_list_loop_TCFF1202_v01** (SR for StormRunner).
 as rar files (openable by WinZip) from these links in the User Guide, or 
 
   * **1-EvalXPathMatchParam** http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
