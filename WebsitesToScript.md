@@ -23,7 +23,7 @@ Folder names are in brackets mentioned below.
 
 # <a name="ChallengeApps"></a> Challenge apps
 
-* <a href="HPStormObjID.md"> **HPSR1** = HP StormRunner Sample Pages for Custom Object Identification</a>
+* <a href="HPSR1.md"> **HPSR1** = HP StormRunner sample pages</a> for custom object identification
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
 
