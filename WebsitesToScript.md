@@ -193,12 +193,25 @@ which contains instructions for creating a local server
 The TruClient scripting technology associated with HP LoadRunner addresses apps which are driven by **JavaScript**.
 (The "Mobile Application - HTTP" LoadRunner script protocol create scripts from PCAP files created by WireShark)
 
-There are several types of demo framework samples, listed by highst current hotness:
+There are several demo framework samples, listed by highst current hotness:
 
+* <a href="#WebSocketsFrameworkDemos"> WebSockets development framework demos</a>
 * <a href="#HybridMobileFrameworkDemos"> Hybrid mobile app development framework demos</a>
 * <a href="#ResponsiveFrameworkDemos"> "Responsive" web development framework demos</a>
 * <a href="#DesktopJSFrameworkDemos"> Desktop web development framework demos</a>
 * <a href="#ASP.NETFrameworkDemos"> Desktop ASP.NET web development framework demos</a>
+
+## <a name="WebSocketsFrameworkDemos"></a> WebSockets development framework demos
+
+WebSockets is a HTML5 feature for **asynchronous** communictions in a lightweight way.
+It is quicker and uses less server resources because: 
+
+  a) instead of using standard HTTP headers, it uses a leaner set of headers. 
+
+  b) instead of JSON, it uses a format that takes less characters,
+
+[demo.LightStreamer.com ](http://demo.LightStreamer.com)
+provides front-end UI demos interacting with the server library sold on LightStreamer.com.
 
 ## <a name="HybridMobileFrameworkDemos"></a> Hybrid app development framework demos
 
