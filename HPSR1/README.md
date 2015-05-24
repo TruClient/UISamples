@@ -7,7 +7,7 @@
 
 #### <a name="HP_Dynamic_Value"></a> Dynamic Value
 
-Script HPSR1_DynamicValue_TCFF1202_v01
+Script <a href="Script HPSR1_DynamicValue_TCFF1202_v01">HPSR1_DynamicValue_TCFF1202_v01</a>
 processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
 which when the generate button is pressed generates a random number.
 
