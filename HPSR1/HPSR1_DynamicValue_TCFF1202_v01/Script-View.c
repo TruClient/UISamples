@@ -6,7 +6,7 @@ Script_View_Action()
 {
 	truclient_step("2", "If ( false )", "snapshot=Action_2.inf");
 	{
-		truclient_step("2.1", "Navigate to 'C:\\LoadRunner\\HPSR1_w...amic_value.html'", "snapshot=Action_2.1.inf");
+		truclient_step("2.1", "Navigate to 'C:\\githubs\\TruClient\...amic_value.html'", "snapshot=Action_2.1.inf");
 	}
 	truclient_step("3", "If ( true )", "snapshot=Action_3.inf");
 	{

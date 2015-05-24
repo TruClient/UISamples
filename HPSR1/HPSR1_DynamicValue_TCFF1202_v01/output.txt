@@ -1,20 +1,38 @@
-Virtual User Script started at : 2015-05-11 14:51:51
-TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2015/05/11 at 14:51:49 (0000.000s)
+Virtual User Script started at : 2015-05-24 06:30:35
+TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2015/05/24 at 06:30:34 (0000.000s)
 Starting action Init.
 Ending action Init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-t=00001944ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
-t=00001948ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
-t=00001951ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
-t=00002480ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
-t=00003805ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
-t=00003808ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
-t=00004319ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
-t=00004539ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
-t=00004540ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
-t=00004544ms: Dialog-Alert: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 96    [MsgId: MMSG-205180]
+t=00001634ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00001637ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00001647ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00002165ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00003503ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00003506ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00004022ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00004238ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
+t=00004239ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00004240ms: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 44    [MsgId: MMSG-205180]
+t=00004454ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+t=00004502ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00004506ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00004518ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00005034ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00006094ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00006096ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00006608ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00006860ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
+t=00006862ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00006862ms: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 50    [MsgId: MMSG-205180]
+t=00007076ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 2.
 Ending Vuser...
 Starting action End.
 Ending action End.

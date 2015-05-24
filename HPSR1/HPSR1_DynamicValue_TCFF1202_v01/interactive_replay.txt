@@ -1,24 +1,38 @@
-Virtual User Script started at : 2015-05-13 09:08:22
-TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2015/05/13 at 09:08:22 (0000.000s)
+Virtual User Script started at : 2015-05-24 06:29:42
+TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2015/05/24 at 06:29:42 (0000.000s)
 Starting action Init.
 Ending action Init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-t=00000790ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
-t=00000808ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
-t=00000819ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
-t=00001327ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
-t=00003765ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
-t=00003790ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
-t=00004299ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
-t=00004583ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
-t=00004597ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
-t=00004612ms: Dialog-Alert: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 36    [MsgId: MMSG-205180]
-t=00011283ms: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 36    [MsgId: MMSG-205180]
-t=00011505ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed    [MsgId: MMSG-205180]
+t=00001199ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00001221ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00001229ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00001777ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00003177ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00003203ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00003722ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00004006ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
+t=00004024ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00004039ms: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 55    [MsgId: MMSG-205180]
+t=00004257ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed    [MsgId: MMSG-205180]
 Ending action Action.
 Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+t=00004660ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00004682ms: ** 2: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00004686ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00005199ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00006237ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00006254ms: ** 3: If (true) ** successfully completed    [MsgId: MMSG-205180]
+t=00006777ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00007096ms: ** 4: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
+t=00007110ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00007110ms: >> generated_data=[object XrayWrapper [object HTMLDivElement]] innerHTML=No. 33    [MsgId: MMSG-205180]
+t=00007314ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 2.
 Ending Vuser...
 Starting action End.
 Ending action End.
