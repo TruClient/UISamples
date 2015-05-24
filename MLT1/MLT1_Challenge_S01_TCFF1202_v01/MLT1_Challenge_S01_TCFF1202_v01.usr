@@ -1,0 +1,74 @@
+[General]
+Type=Web2UI
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=2
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Script-View
+DevelopTool=Vugen
+LastModifyVer=12.2.0.0
+ActiveTypes=Web2UI
+AdditionalTypes=Web2UI
+GenerateTypes=Web2UI
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Script-View=Script-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Script-View=1
+vuser_init=0
+Action=0
+vuser_end=0
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=cci
+Action=cci
+Script-View=no
+vuser_end=cci
+[Recorded Actions]
+vuser_init=0
+Action=0
+Script-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Script-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Script-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="Initial Correlation Challenge Load__*delimiter*__Step 0 - Begin by clicking next__*delimiter*__Step 1 - Enter the random number__*delimiter*__Step 2 - Select the default colour__*delimiter*__Step 3 - Select the in-stock items__*delimiter*__Step 4 - Final step"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"Initial Correlation Challenge Load"=
+"Step 0 - Begin by clicking next"=
+"Step 1 - Enter the random number"=
+"Step 2 - Select the default colour"=
+"Step 3 - Select the in-stock items"=
+"Step 4 - Final step"=
