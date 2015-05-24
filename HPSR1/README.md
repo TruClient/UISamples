@@ -1,9 +1,18 @@
 **HPSR1** = HP StormRunner sample pages for custom object identification 
 
+ * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
  * <a href="#HP_List"> HP List</a>
  * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
  * <a href="#HP_Clickable_Table"> Clickable Table</a>
- * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
+
+#### <a name="HP_Dynamic_Value"></a> Dynamic Value
+
+Script HPSR1_DynamicValue_TCFF1202_v01
+processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
+which when the generate button is pressed generates a random number.
+
+The challenge is to get the script to obtain the value from the DOM and display it.
+
 
 #### <a name="HP_List"></a> List
 
@@ -70,9 +79,4 @@ as rar files (openable by WinZip) from these links in the User Guide, or
    * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
      Clickable Table page generates dynamic table when the 'Refresh' button is pressed. 
    Use [Michal - fill script name] with this page to learn how to close an open state cell. 
-
-#### <a name="HP_Dynamic_Value"></a> Dynamic Value
-
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
-     generates a random number when the generate button is pressed. 
 
