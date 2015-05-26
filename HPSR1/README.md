@@ -79,8 +79,11 @@ as rar files (openable by WinZip) from these links in the User Guide, or
 #### <a name="HP_Dynamic_Table"></a> Dynamic Table
 
 TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v01)
+(developed by Anil Mainali)
 processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
 which generates dynamic table when pressing the 'Refresh' button. 
+
+Anil Mainali is recording a video of the app and how to construct the script.
 
 
 #### <a name="HP_Clickable_Table"></a> Clickable Table
