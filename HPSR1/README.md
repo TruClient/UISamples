@@ -7,7 +7,7 @@
 
 #### <a name="HP_Dynamic_Value"></a> Dynamic Value
 
-Script <a href="HPSR1_DynamicValue_TCFF1202_v01">HPSR1_DynamicValue_TCFF1202_v01</a>
+TruClient Script <a href="HPSR1_DynamicValue_TCFF1202_v01">HPSR1_DynamicValue_TCFF1202_v01</a>
 processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
 which when the generate button is pressed generates a random number.
 
@@ -16,7 +16,7 @@ The challenge is to get the script to obtain the value from the DOM and display 
 
 #### <a name="HP_List"></a> List
 
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
+ http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
      has a list of 9 items.
      Use [Michal - fill script name] with this page to learn how to iterate through links list. 
 
