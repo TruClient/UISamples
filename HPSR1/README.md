@@ -71,9 +71,10 @@ as rar files (openable by WinZip) from these links in the User Guide, or
 
 #### <a name="HP_Dynamic_Table"></a> Dynamic Table
 
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
-      generates dynamic table when pressing the 'Refresh' button. 
-      Use [Michal - fill script name] with this page to learn how to toggle the selected cell state. 
+TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v01)
+processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
+which generates dynamic table when pressing the 'Refresh' button. 
+
 
 #### <a name="HP_Clickable_Table"></a> Clickable Table
 
