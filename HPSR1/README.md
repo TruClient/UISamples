@@ -86,7 +86,8 @@ which generates a table.
 Anil Mainali is recording a video of the app and how to construct the script which does this:
 
 1. Identify which of the check boxes under Heading 0 is checked.
-2. Uncheck ??? 
+2. Identify how many rows were randomly generated.
+2. Uncheck what is checked and check what is generated as unchecked.
 
 
 #### <a name="HP_Clickable_Table"></a> Clickable Table
