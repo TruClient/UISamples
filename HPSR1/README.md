@@ -77,8 +77,7 @@ which generates dynamic table when pressing the 'Refresh' button.
 
 
 #### <a name="HP_Clickable_Table"></a> Clickable Table
+TruClient script [HPSR1_ClickableTable_TCFF1202_v01](HPSR1_ClickableTable_TCFF1202_v01)
+processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
 
-   * http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
-     Clickable Table page generates dynamic table when the 'Refresh' button is pressed. 
-   Use [Michal - fill script name] with this page to learn how to close an open state cell. 
-
+This clickable Table page generates a dynamic table when the 'Refresh' button is pressed. 
