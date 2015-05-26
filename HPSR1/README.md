@@ -14,11 +14,12 @@ which when the generate button is pressed generates a random number.
 The challenge is to get the script to obtain the value from the DOM and display it.
 
 
-#### <a name="HP_List"></a> List
+#### <a name="HP_List"></a> List Loop
 
- http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
-     has a list of 9 items.
-     Use [Michal - fill script name] with this page to learn how to iterate through links list. 
+TruClient Script 
+[HPSR1_list_loop_TCIE1202_v01](HPSR1_list_loop_TCIE1202_v01)
+processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
+which has a list of 9 items. The HTML to the first link:
 
 ```
 <div class="container"  style="padding-left:20% !important">
