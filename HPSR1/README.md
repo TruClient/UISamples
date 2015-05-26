@@ -80,10 +80,13 @@ as rar files (openable by WinZip) from these links in the User Guide, or
 
 TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v01)
 (developed by Anil Mainali)
-processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
-which generates dynamic table when pressing the 'Refresh' button. 
+processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
+which generates a table. 
 
-Anil Mainali is recording a video of the app and how to construct the script.
+Anil Mainali is recording a video of the app and how to construct the script which does this:
+
+1. Identify which of the check boxes under Heading 0 is checked.
+2. Uncheck ??? 
 
 
 #### <a name="HP_Clickable_Table"></a> Clickable Table
