@@ -1,9 +1,12 @@
 **HPSR1** = HP StormRunner sample pages for custom object identification 
 
  * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
- * <a href="#HP_List"> HP List</a>
+ * <a href="#HP_List"> Static List</a>
  * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
  * <a href="#HP_Clickable_Table"> Clickable Table</a>
+
+The HTML, images, CSS, and JavaScript files are provided in folder so 
+you can execute this app when without public internet access.
 
 As with other scripts, the naming convention for TruClient scripts is
 
