@@ -25,7 +25,7 @@ Right-clicking the response and selecting **Inspect Element** reveals the HTML n
 
 TruClient Script 
 [HPSR1_list_loop_TCIE1202_v01](HPSR1_list_loop_TCIE1202_v01)
-processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
+processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
 which has a list of 9 items. The HTML to the first link:
 
 ```
@@ -49,31 +49,44 @@ Scripts constructed using the steps above are made available as different
 in my script **HPSR1_list_loop_TCFF1202_v01** (SR for StormRunner).
 as rar files (openable by WinZip) from these links in the User Guide, or 
 
-  * **1-EvalXPathMatchParam** http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar
+  * **1-EvalXPathMatchParam** is used in a sample script  from HP R&D at
+ http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links1.rar.
+
+This approach involves the creation of a text file containing expected values
+such as "Link 1". This data file is referenced in VuGen as a parameter named
+"LinkText". This parameter TruClient scriipt references in this JavaScript:
 
     ```
     evalXPath("//li[text()=\"" + ArgsContext.TC.getParam("LinkText") + "\"]");
     ```
 
-  * **2-EvalXPathArgsContext** 
+ArgsContext is like "this." in JavaScript.
+
+Such an approach is most approriate when mataching data in a file dynamically generated
+from another system.
+
+
+  * **2-EvalXPathArgsContext** is used in a sample script  from HP R&D at
   http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links2.rar
   
     ```
     evalXPath("//li[text()=\"Link " + ArgsContext.i + " - this is an example\"]");
   ```
-  * **3-EvalXPath_DOM_ArgsContext** 
+  * **3-EvalXPath_DOM_ArgsContext** is used in a sample script  from HP R&D at
   http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links3.rar
 
     ```
     evalXPath("/html/body/ul/li[" + ArgsContext.i + "]/a");
     ```
 
-  * **4-Descriptors_Editor** is used in sample script 
+  * **4-Descriptors_Editor** is used in sample script from HP R&D at
   http://stormhelp.saas.hp.com/TruClient/TruClientExamples/Scripts/Links4.rar
 
     ```
     ArgsContext.i
     ```
+
+This is automatically used as the incrementer.
 
 
 #### <a name="HP_Dynamic_Table"></a> Dynamic Table
@@ -83,7 +96,8 @@ TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v
 processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
 which generates a table. 
 
-Anil Mainali is recording a video of the app and how to construct the script which does this:
+Anil Mainali is recording a video of the web page operation, what Inspect Element reveals,
+and how to construct the script which does this:
 
 1. Identify which of the check boxes under Heading 0 is checked.
 2. Identify how many rows were randomly generated.
