@@ -29,7 +29,10 @@ Right-clicking the response and selecting **Inspect Element** reveals the HTML n
 TruClient Script 
 [HPSR1_list_loop_TCIE1202_v01](HPSR1_list_loop_TCIE1202_v01)
 processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/links.html
-which has a list of 9 items. The HTML to the first link:
+
+![hpsr1_links_v1](https://cloud.githubusercontent.com/assets/300046/7865417/c62daa14-0525-11e5-97fd-c5ab19bee124.png)
+
+This page has a list of 9 items. The HTML to the first link:
 
 ```
 <div class="container"  style="padding-left:20% !important">
