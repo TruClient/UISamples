@@ -99,6 +99,8 @@ TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v
 processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table1.html
 which generates a table. 
 
+![hpsr1_table1_v1](https://cloud.githubusercontent.com/assets/300046/7865181/18cd231e-0524-11e5-9e3c-16b0b52b99f7.png)
+
 Anil Mainali is recording a video of the web page operation, what Inspect Element reveals,
 and how to construct the script which does this:
 
