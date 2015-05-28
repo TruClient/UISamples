@@ -113,4 +113,12 @@ and how to construct the script which does this:
 TruClient script [HPSR1_ClickableTable_TCFF1202_v01](HPSR1_ClickableTable_TCFF1202_v01)
 processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
 
-This clickable Table page generates a dynamic table when the 'Refresh' button is pressed. 
+![hpsr1_table2_v1](https://cloud.githubusercontent.com/assets/300046/7865273/a489d168-0524-11e5-8fe5-93107b0e53b4.png)
+
+When the 'Refresh' button is pressed the table is regenerated with a random number of rows.
+Under the Header 1 column is a 3-value toggle: Open > Closed > Error
+which can be changed by clicking the **Submit data** for each row.
+
+ * Click on Submit data when the value is Open changes the value to Closed.
+ * Click on Submit data when the value is Closed changes the vaue to Error.
+ * Click on Submit data when the value is Error does not change the value.
