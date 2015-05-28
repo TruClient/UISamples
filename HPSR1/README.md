@@ -2,7 +2,7 @@
 
 
 <img src="https://cloud.githubusercontent.com/assets/300046/7866420/9551fefc-052c-11e5-990f-c86978a157e5.png" 
-width="300" />
+width="300" align="right" />
 
  * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
  * <a href="#HP_List"> Various Links (Static List)</a>
