@@ -1,9 +1,7 @@
 **HPSR1** = HP StormRunner sample pages for custom object identification 
-img[alt="hpsr1_menu_v1"] { 
-  max-width:  20px; 
-  display: block;
-}
-![hpsr1_menu_v1](https://cloud.githubusercontent.com/assets/300046/7865547/d74e3eca-0526-11e5-9c89-efa1628d6ca4.png =250x)
+
+
+![hpsr1_menu_v1](https://cloud.githubusercontent.com/assets/300046/7866420/9551fefc-052c-11e5-990f-c86978a157e5.png)
 
  * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
  * <a href="#HP_List"> Various Links (Static List)</a>
