@@ -3,9 +3,9 @@
 ![hpsr1_menu_v1](https://cloud.githubusercontent.com/assets/300046/7865547/d74e3eca-0526-11e5-9c89-efa1628d6ca4.png)
 
  * <a href="#HP_Dynamic_Value"> Dynamic Value</a>
- * <a href="#HP_List"> Static List</a>
- * <a href="#HP_Dynamic_Table"> Dynamic Table</a>
- * <a href="#HP_Clickable_Table"> Clickable Table</a>
+ * <a href="#HP_List"> Various Links (Static List)</a>
+ * <a href="#HP_Dynamic_Table"> Selectable Cells Table</a>
+ * <a href="#HP_Clickable_Table"> Clickable Cells Table</a>
 
 The HTML, images, CSS, and JavaScript files are provided in folder so 
 you can execute this app when without public internet access.
@@ -30,7 +30,7 @@ The challenge is to get the script to obtain the value from the DOM and display 
 Right-clicking the response and selecting **Inspect Element** reveals the HTML name which needs to be identified.
 
 
-#### <a name="HP_List"></a> List Loop
+#### <a name="HP_List"></a> Various Links (Static List)
 
 TruClient Script 
 [HPSR1_list_loop_TCIE1202_v01](HPSR1_list_loop_TCIE1202_v01)
@@ -101,7 +101,7 @@ from another system.
 This is automatically used as the incrementer.
 
 
-#### <a name="HP_Dynamic_Table"></a> Dynamic Table
+#### <a name="HP_Dynamic_Table"></a> Selectable Cells (Dynamic Table)
 
 TruClient script [HPSR1_DynamicTable_TCIE1202_v01](HPSR1_DynamicTable_TCIE1202_v01)
 (developed by Anil Mainali)
@@ -118,7 +118,8 @@ and how to construct the script which does this:
 2. Uncheck what is checked and check what is generated as unchecked.
 
 
-#### <a name="HP_Clickable_Table"></a> Clickable Table
+#### <a name="HP_Clickable_Table"></a> Clickable Cells
+
 TruClient script [HPSR1_ClickableTable_TCFF1202_v01](HPSR1_ClickableTable_TCFF1202_v01)
 processes web page http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/table2.html
 
