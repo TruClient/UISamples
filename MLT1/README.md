@@ -1,4 +1,5 @@
-This page describes the Correlation Challenge web application at MyLoadTest.com.
+MLT1 is the prefix for this page because it describes the Correlation Challenge web application at 
+http://www.MyLoadTest.com.
 
 http://www.myloadtest.com/loadrunner-correlation-exercise/
 was developed by LoadRunner master Stuart Moncrieff (of Melbourne, Australia)
