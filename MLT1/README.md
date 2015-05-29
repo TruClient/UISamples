@@ -36,7 +36,7 @@ A C-language LoadRunner script would register a capture of the table returned fr
 But TruClient scripts do not need to do capture HTML that way because 
 they use JavaScript to refer to the current value of the HTML contained in the DOM for each vuser.
 
-So just click **Next** for the Step 3 screen containing a table.
+   So just click **Next** for the Step 3 screen containing a table.
 
 8. At the "Step 3" screen: For each row containing "In Stock" under the Availability column heading, 
    check the corresponding column's Select checkbox. 
