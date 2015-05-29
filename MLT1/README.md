@@ -17,15 +17,15 @@ you would need to capture the number.
 
 4. Highlight that number and right-click and select **Inspect Element** to see its HTML:
 
-````
-<p>
-Here is a simple one to get you started. Enter the following number in the field below and press Next:
-<strong> 7191 </strong>
-</p>
-<form method=
-````
+   ````
+   <p>
+   Here is a simple one to get you started. Enter the following number in the field below and press Next:
+   <strong> 7191 </strong>
+   </p>
+   <form method=
+   ````
 
-The number has no identifier that JavaScript can reference.
+   The number has no identifier that JavaScript can reference.
 
 5. Click X at the upper right of the Firebug pane to exit.
 
