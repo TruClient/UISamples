@@ -35,40 +35,6 @@ was developed by LoadRunner master Stuart Moncrieff (of Melbourne, Australia)
 for use with LoadRunner C-language scripting.
 This was before TruClient became available.
 
-#### <a name="CorrelationChallenge"></a> MyLoadTest Correlation Challenge
-Here are the manual steps the script should emulate:
-
-1. Filter out all requests to www.google-analytics.com to avoid corrupting the site's Google Analytics metics
-   by coding in C-programming scripts:
-
-      ```
-      web_add_auto_filter("Action=Exclude", "Host=www.google-analytics.com", LAST);
-      ```
-  In TruClient use:
-  
-  ```
-  Utils.addAutoFilter("https://www.google-analytics.com/*", false);
-  ```
-2. Begin recording at URL http://www.myloadtest.com/training/correlation-challenge/
-
-3. At the "Step 1" screen: Click Next. Capture the number that appears on the next page.
-
-4. Input the number in the text field and click Next.
-
-5. At the "Step 2" screen: Leave the drop-down list set to its default value, and press Next.
-   Capture the table returned.
-
-6. At the "Step 3" screen: For each row containing "In Stock" under the Availability column heading, 
-   check the corresponding column's Select checkbox. Press next.
-   This is perhaps the most difficult part of the charllenge becuase it involves correspondance between rows.
-   Capture some "complicated things" in the HTML returned for the next screen.
-
-7. At the "Step 4" screen: Manually determine what is unsaid. Click Next. 
-
-8. The text says the challenge is complete.
-   However. Change the User-Agent string in your script to "VuGen" to show you aren't using a standard browser. 
-   
-9. Rerun page to show different information with the modified User-Agent.
 
 <!--
 #### <a name="CreditCardChallenge"></a> MyLoadTest Credit Card Challenge
