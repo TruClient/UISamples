@@ -30,7 +30,7 @@ you would need to capture the number.
 5. Click X at the upper right of the Firebug pane to exit.
 
 <img src="https://cloud.githubusercontent.com/assets/300046/7893865/7570dfc4-061f-11e5-882b-48b00f95d8b6.png" align="right" 
-alt="mlt1_corelationchallenge_dropdown_v1" />
+alt="mlt1_corelationchallenge_dropdown_v1" width="250" />
 6. Click **Next** for the Step 2 screen containing a drop-down list of colors.
 
 7. At the "Step 2" screen: Leave the drop-down list set to its default value, and press Next.
