@@ -26,7 +26,8 @@ Folder names are in brackets mentioned below.
 * <a href="HPSR1.md"> **HPSR1** = HP StormRunner sample pages</a> for custom object identification
 * <a href="#CorrelationChallenge"> **MLT1** = MyLoadTest Challenge</a>
 * <a href="#TheInternet"> **TIH1** = The Internet on Herokuapp Challenge</a>
-
+* <a href="#WT3"> **WT1** = Web Tours (comes with LoadRunner)</a>
+* <a href="#MedRec3"> **MR1** = MedRec (comes with Oracle software products)</a>
 
 
 ### <a name="CorrelationChallenge"></a> MLT1 = MyLoadTest Challenge
@@ -73,6 +74,20 @@ Source code used to build the website is at
 https://github.com/tourdedave/the-interne 
 which contains instructions for creating a local server 
 
+### <a nane="WT3"> **WT1** = Web Tours (comes with LoadRunner)</a>
+
+
+### <a name="MedRec3"> **MR1** = MedRec (comes with Oracle software products)</a>
+
+MedRec (Medical Records) simulates an independent, centralized medical record management system 
+for patients, doctors (physicians), and administrators to manage patient data.
+
+The program UI is written in Java Enterprise Edition (J2EE) enterprise Java Beans within a Spring framework
+running on Oracle WebLogic server "middleware" software.
+
+Oracle acquired got MedRec as part of its purchase of BEA and its WebLogic server software.
+
+The installer for MedRec is within the OracleATS (Application Test Suite) download.
 
 
 <hr />
