@@ -57,12 +57,12 @@ they use JavaScript to refer to the current value of the HTML contained in the D
 
 11. Click **Next** for the page which says the challenge is complete.
 
-How does one change the User-Agent string in VuGen scripts?
+12. How does one change the User-Agent string in VuGen scripts?
 This is actually a common concern when testing apps running on internet browsers on mobile devices.
 
   HINT: Look in Runtime Settings, Browser.
 
-How does one filter out all requests to www.google-analytics.com to avoid corrupting the site's Google Analytics metrics?
+13. How does one filter out all requests to www.google-analytics.com to avoid corrupting the site's Google Analytics metrics?
 
    The coding in C-programming scripts:
 
