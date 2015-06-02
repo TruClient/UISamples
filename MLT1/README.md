@@ -19,6 +19,19 @@ you would need to capture the number.
 4. Highlight that number and right-click and select **Inspect Element** to see its HTML:
 
    ````
+   <div id="content-inner" class="container-12 sidebar t-page clearfix">
+
+		<div class="grid entry-list">
+					<article id="entry-216" class="entry post-216 page type-page status-publish hentry">
+				<div class="entry-inner">
+					<header>
+						<h2 class="entry-title">Correlation Challenge</h2>
+					</header>
+					<div class="text clearfix">
+
+
+				<h3>Step 1</h3>
+	
    <p>
    Here is a simple one to get you started. Enter the following number in the field below and press Next:
    <strong> 7191 </strong>
@@ -27,6 +40,9 @@ you would need to capture the number.
    ````
 
    The number has no identifier that JavaScript can reference.
+
+   So some JavaScript Regular Expression extract from the `<div id="content-inner"` might be useful:
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 5. Click X at the upper right of the Firebug pane to exit.
 
