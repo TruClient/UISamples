@@ -39,7 +39,7 @@ you would need to capture the number.
    <form method=
    ````
 
-   The number has no identifier that JavaScript can reference.
+   The number (7191 in the current instance) has no identifier that JavaScript can reference.
 
    So some JavaScript Regular Expression extract from the `<div id="content-inner"` might be useful:
    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
