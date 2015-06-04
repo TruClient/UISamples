@@ -1,0 +1,103 @@
+Virtual User Script started at : 2015-06-03 12:01:33
+TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2015/06/03 at 12:01:33 (0000.000s)
+Starting action Init.
+t=00000455ms: ** 2: Evaluate JavaScript code // Run conditions: var j...net/*", false);  ** started    [MsgId: MMSG-205180]
+t=00000458ms: document.lastModified=06/03/2015 12:01:33    [MsgId: MMSG-205180]
+t=00000458ms: >> LR.scriptDir=C:\TrueClient\MLT1_CorreChallenge_TCFF1202_v03\    [MsgId: MMSG-205180]
+t=00000459ms: >> LR.outputDir=C:\TrueClient\MLT1_CorreChallenge_TCFF1202_v03\    [MsgId: MMSG-205180]
+t=00000459ms: >> LR.userId=-1    [MsgId: MMSG-205180]
+t=00000460ms: >> LR.scenarioId=0    [MsgId: MMSG-205180]
+t=00000460ms: >> LR.groupName=None    [MsgId: MMSG-205180]
+t=00000666ms: ** 2: Evaluate JavaScript code // Run conditions: var j...net/*", false);  ** successfully completed    [MsgId: MMSG-205180]
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "Initial Correlation Challenge Load" started.
+t=00001512ms: ** 1: Navigate to "http://www.myloadtest.c...tion-challenge/" ** started    [MsgId: MMSG-205180]
+t=00006456ms: ** 1: Navigate to "http://www.myloadtest.c...tion-challenge/" ** successfully completed    [MsgId: MMSG-205180]
+t=00006456ms: ** 3: Verify Correlation Challenge's "Visible Text" Contain Correlation Challenge ** started    [MsgId: MMSG-205180]
+t=00006697ms: ** 3: Verify Correlation Challenge's "Visible Text" Contain Correlation Challenge ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Initial Correlation Challenge Load" ended with a "Pass" status (Duration: 5.2050 Think Time: 0.0010 Wasted Time: 0.6050).
+Notify: Transaction "Step 0 - Begin by clicking next" started.
+t=00007212ms: ** 4: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00009307ms: ** 4: Click on Next button ** successfully completed    [MsgId: MMSG-205180]
+t=00009307ms: ** 5: Verify Step 1's "Visible Text" Contain Step 1 ** started    [MsgId: MMSG-205180]
+t=00009498ms: ** 5: Verify Step 1's "Visible Text" Contain Step 1 ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 0 - Begin by clicking next" ended with a "Pass" status (Duration: 2.3020 Think Time: 0.0010 Wasted Time: 0.5980).
+t=00009542ms: ** 6: Evaluate JavaScript code var content = document.g...lue",array[1]);  ** started    [MsgId: MMSG-205180]
+t=00009771ms: ** 6: Evaluate JavaScript code var content = document.g...lue",array[1]);  ** successfully completed    [MsgId: MMSG-205180]
+t=00010296ms: ** 7: Click on Step 1 Here is a simple... textbox ** started    [MsgId: MMSG-205180]
+t=00010559ms: ** 7: Click on Step 1 Here is a simple... textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00011077ms: ** 8: Type TC.getParam("Step1Value");  in Step 1 Here is a simple... textbox ** started    [MsgId: MMSG-205180]
+t=00013036ms: ** 8: Type TC.getParam("Step1Value");  in Step 1 Here is a simple... textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 1 - Enter the random number" started.
+t=00013544ms: ** 9: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00015032ms: ** 9: Click on Next button ** successfully completed    [MsgId: MMSG-205180]
+t=00015042ms: ** 10: Verify Step 1's "Visible Text" Contain Step 2 ** started    [MsgId: MMSG-205180]
+t=00015302ms: ** 10: Verify Step 1's "Visible Text" Contain Step 2 ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 1 - Enter the random number" ended with a "Pass" status (Duration: 1.7720 Think Time: 0.0010 Wasted Time: 0.6010).
+Notify: Transaction "Step 2 - Select the default colour" started.
+t=00015815ms: ** 11: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00017438ms: ** 11: Click on Next button ** successfully completed    [MsgId: MMSG-205180]
+t=00017447ms: ** 12: Verify Step 1's "Visible Text" Contain Step 3 ** started    [MsgId: MMSG-205180]
+t=00017711ms: ** 12: Verify Step 1's "Visible Text" Contain Step 3 ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 2 - Select the default colour" ended with a "Pass" status (Duration: 1.9100 Think Time: 0.0010 Wasted Time: 0.6040).
+t=00017732ms: ** 13: Evaluate JavaScript code var re = /<td>In S...ount",counter);  ** started    [MsgId: MMSG-205180]
+t=00017964ms: ** 13: Evaluate JavaScript code var re = /<td>In S...ount",counter);  ** successfully completed    [MsgId: MMSG-205180]
+t=00018001ms: ** 14: For (var i = 1; i < eval(TC.getParam(...p3Value_count")); i++) ** started    [MsgId: MMSG-205180]
+t=00018026ms: ** 14: For loop 1 ** started    [MsgId: MMSG-205180]
+t=00018052ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00018261ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00018785ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00018900ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00018936ms: ** 14: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00018939ms: ** 14: For loop 2 ** started    [MsgId: MMSG-205180]
+t=00018974ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00019201ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00019734ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00019867ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00019910ms: ** 14: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00019914ms: ** 14: For loop 3 ** started    [MsgId: MMSG-205180]
+t=00019949ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00020157ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00020706ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00020808ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00020863ms: ** 14: For loop 3 ** ended    [MsgId: MMSG-205180]
+t=00020867ms: ** 14: For loop 4 ** started    [MsgId: MMSG-205180]
+t=00020914ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00021135ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00021672ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00021791ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00021839ms: ** 14: For loop 4 ** ended    [MsgId: MMSG-205180]
+t=00021844ms: ** 14: For loop 5 ** started    [MsgId: MMSG-205180]
+t=00021880ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00022094ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00022604ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00022743ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00022789ms: ** 14: For loop 5 ** ended    [MsgId: MMSG-205180]
+t=00022794ms: ** 14: For loop 6 ** started    [MsgId: MMSG-205180]
+t=00022828ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** started    [MsgId: MMSG-205180]
+t=00023036ms: ** 14.1: Evaluate JavaScript code Step3Value=window.Step3V..."+i.toString())  ** successfully completed    [MsgId: MMSG-205180]
+t=00023586ms: ** 14.2: Click on Step3Value checkbox ** started    [MsgId: MMSG-205180]
+t=00023683ms: ** 14.2: Click on Step3Value checkbox ** successfully completed    [MsgId: MMSG-205180]
+t=00023728ms: ** 14: For loop 6 ** ended    [MsgId: MMSG-205180]
+t=00023754ms: ** 14: For (var i = 1; i < eval(TC.getParam(...p3Value_count")); i++) ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 3 - Select the in-stock items" started.
+t=00024285ms: ** 18: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00025934ms: ** 18: Click on Next button ** successfully completed    [MsgId: MMSG-205180]
+t=00025946ms: ** 19: Verify Step 1's "Visible Text" Contain Step 4 ** started    [MsgId: MMSG-205180]
+t=00026200ms: ** 19: Verify Step 1's "Visible Text" Contain Step 4 ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 3 - Select the in-stock items" ended with a "Pass" status (Duration: 1.9470 Think Time: 0.0010 Wasted Time: 0.6010).
+Notify: Transaction "Step 4 - Final step" started.
+t=00026713ms: ** 20: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00028785ms: ** 20: Click on Next button ** successfully completed    [MsgId: MMSG-205180]
+t=00028785ms: ** 21: Verify Correlation Challenge's "Visible Text" Contain Correlation Challenge ** started    [MsgId: MMSG-205180]
+t=00029013ms: ** 21: Verify Correlation Challenge's "Visible Text" Contain Correlation Challenge ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "Step 4 - Final step" ended with a "Pass" status (Duration: 2.3150 Think Time: 0.0010 Wasted Time: 0.5990).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

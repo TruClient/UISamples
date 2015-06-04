@@ -64,7 +64,7 @@ Order="Initial Correlation Challenge Load__*delimiter*__Step 0 - Begin by clicki
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
-ActiveRunName=
+ActiveRunName=result1
 [Transactions]
 "Initial Correlation Challenge Load"=
 "Step 0 - Begin by clicking next"=
