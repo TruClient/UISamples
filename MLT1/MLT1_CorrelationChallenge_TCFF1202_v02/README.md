@@ -56,36 +56,36 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
 3. Click on ... to edit
 4. Type in this line to instantiate a variable named **content** to hold the innerHTML obtained from the screen.
 
-```
-var content = document.getElementById('content-inner').innerHTML;
-```
+ ```
+ var content = document.getElementById('content-inner').innerHTML;
+ ```
 
-Even though the **content-inner** Id is many lines above the target number we want captured,
-we reference it because it is the lowest level identifier to the target text.
+ Even though the **content-inner** Id is many lines above the target number we want captured,
+ we reference it because it is the lowest level identifier to the target text.
 
 5. Type in this code to define a regular expression to capture the string into a variable named **array**.
  
-Your organization may prefer that you use another name to adopt a corporate convention.
+ Your organization may prefer that you use another name to adopt a corporate convention.
 
-```
-var array = content.match(/<strong>\s+([0-9]+)\s+<\/strong>/);
-```
+ ```
+ var array = content.match(/<strong>\s+([0-9]+)\s+<\/strong>/);
+ ```
 
-The .match method operates on the content class defined earlier.
+ The .match method operates on the content class defined earlier.
 
-The pattern is defined between two / (forward slashes).
+ The pattern is defined between two / (forward slashes).
 
-The text we want to capture is between `<strong>` and `</strong>` HTML tags.
+ The text we want to capture is between `<strong>` and `</strong>` HTML tags.
 
-The two `\s+` `\s+` are ???
+ The two `\s+` `\s+` are ???
 
-The `([0-9]+)` specifies ???
+ The `([0-9]+)` specifies ???
 
 5. Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
 
-```
-TC.setParam("Step1Value",array[1]);
-```
+ ```
+ TC.setParam("Step1Value",array[1]);
+ ```
 
 
 ## Step 2
