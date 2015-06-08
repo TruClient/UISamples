@@ -5,7 +5,7 @@ This file is intended to be inside the script file (in the same folder as the .u
 
 ## Examine the HTML While Performing Steps Manually 
 
-1. Open a browser.
+1. Open a browser of the brand indicated in the script name ("FF" for Firefox, "IE" for Internet Explorer).
 2. Manually perform the steps described in
 https://github.com/TruClient/UISamples/blob/master/MLT1/README.md
 
@@ -14,6 +14,11 @@ At each step, right-click on the text in question to select **Inspect Element**.
 Identify in the HTML the applicable CSS identifier or the Regular Expression needed to capture text.
 
 For example:
+
+```
+   Here is a simple one to get you started. Enter the following number in the field below and press Next:
+   <strong> 7191 </strong>
+```
 
 ### Step 1
 
@@ -26,9 +31,9 @@ For example:
 To create the script from scratch:
 
 1. Open VuGen
-
-...
-
+2. Click File > New
+3. Specify a file name following your organization's naming conventions.
+4. Specify a folder following your organization's conventions.
 5. Manually perform the steps described in
 https://github.com/TruClient/UISamples/blob/master/MLT1/README.md
 
@@ -51,9 +56,8 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
 
 ## Edit Step 1
 
-1. Click the Toolbar and select **Evaluate JavaScript**.
-2. Click on 
-3. Click on ... to edit
+1. Click the Toolbar and under Miscellaneous, select **Evaluate JavaScript**.
+2. Click on [Code] to edit
 4. Type in this line to instantiate a variable named **content** to hold the innerHTML obtained from the screen.
 
  ```
@@ -76,6 +80,9 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
  The pattern is defined between two / (forward slashes).
 
  The text we want to capture is between `<strong>` and `</strong>` HTML tags.
+ But in this particular case, there is not. 
+ But there is the possibility that the HTML would contain more than one set of `<strong` tags.
+ Sppecify an increment number if that is the case.
 
  The two `\s+` `\s+` are ???
 
