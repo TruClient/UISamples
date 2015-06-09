@@ -1,4 +1,4 @@
-This mark-up file describes the TruClient script offered as a solution to 
+This mark-down (.md) text file describes the TruClient script offered as a solution to 
 Stuart's Correlation Challenge at his MyLoadTest.com.
 
 This file is intended to be inside the script file (in the same folder as the .usr file).
@@ -86,7 +86,12 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
 
  The two `\s+` `\s+` are ???
 
- The `([0-9]+)` specifies ???
+ The parentheses in `([0-9]+)` specifies a grouping. 
+
+ The `[0-9]` specifies any number (in the range of 0 through 9).
+
+ The `+` in `([0-9]+)` specifies any number of repeats. 
+
 
 5. Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
 
