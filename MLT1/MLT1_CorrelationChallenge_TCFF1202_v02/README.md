@@ -84,7 +84,8 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
  But there is the possibility that the HTML would contain more than one set of `<strong` tags.
  Sppecify an increment number if that is the case.
 
- The two `\s+` `\s+` are ???
+ The two `\s+` `\s+`
+ The parentheses in (\S+), called parenthesized back-reference, is used to extract the matched sub-string from the input    string. In this regex, there are two (\S+), match the first two words, separated by one or more whitespaces \s+.
 
  The parentheses in `([0-9]+)` specifies a grouping. 
 
@@ -93,9 +94,10 @@ TruClient scripts examine HTML and CSS identifiers after receipt.
  The `+` in `([0-9]+)` specifies any number of repeats. 
 
 
-5. Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
-
- ```
+6.Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
+  
+ where step 1 value is 4360 which dynamacally changes.
+   
  TC.setParam("Step1Value",array[1]);
  ```
 
