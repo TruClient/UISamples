@@ -1,28 +1,10 @@
-This mark-down (.md) text file describes the TruClient script offered as a solution to 
+This mark-down (.md) text file describes how to **create** 
+the TruClient script offered as a solution to 
 Stuart's Correlation Challenge at his MyLoadTest.com.
 
 This file is intended to be inside the script file (in the same folder as the .usr file).
 
-## Examine the HTML While Performing Steps Manually 
-
-1. Open a browser of the brand indicated in the script name ("FF" for Firefox, "IE" for Internet Explorer).
-2. Manually perform the steps described in
-https://github.com/TruClient/UISamples/blob/master/MLT1/README.md
-
-At each step, right-click on the text in question to select **Inspect Element**.
-
-Identify in the HTML the applicable CSS identifier or the Regular Expression needed to capture text.
-
-For example:
-
-```
-   Here is a simple one to get you started. Enter the following number in the field below and press Next:
-   <strong> 7191 </strong>
-```
-
-### Step 1
-
-## <a name="Recording"> Record Script</a>
+## <a name="CreateScript"> Create Script</a>
 
 To create the script from scratch:
 
@@ -30,22 +12,30 @@ To create the script from scratch:
 2. Click File > New
 3. Specify a file name following your organization's naming conventions.
 4. Specify a folder following your organization's conventions.
-5. Manually perform the steps described in
+5. Click OK.
+
+
+At each step, right-click on the text in question to select **Inspect Element**.
+
+
+
+## <a name="Recording"> Record Script</a>
+1. Click Record.
+2. Open a browser of the brand indicated in the script name ("FF" for Firefox, "IE" for Internet Explorer).
+3. Manually perform the steps described in
 https://github.com/TruClient/UISamples/blob/master/MLT1/README.md
 
-Along the way, specify start and end transactions so individual scirpt lines can be easily identified later.
+4. Along the way, specify start and end transactions so individual scirpt lines can be easily identified later.
 
-6. Save the script. 
-7. Create a zip file so you can go back to its nacent form.
+5. Save the script. 
+6. Create a zip file so you can go back to its nacent form.
 
-### Step 2
 
-## <a name="Commenting"> Comment</a>
+## <a name="AddComment">Edit Script - Add Comment</a>
 
-## **Add Comment, Run Types and Filters**
+1.  Add a comment in **init** section to provide background information on the script.
 
- Add a comment in **init** section to provide background information on the script.
-
+## <a name="EditScript">Edit Script - Run Types and Filters</a>
 1. High on the TruClient Sidebar, click on the **actions** list and select **Init** (rather than Action)
 
 2. Click on the **vertical Toolbox** tab to expand it.
