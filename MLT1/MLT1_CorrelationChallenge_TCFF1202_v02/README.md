@@ -22,10 +22,6 @@ For example:
 
 ### Step 1
 
-### Step 2
-
-
-
 ## <a name="Recording"> Record Script</a>
 
 To create the script from scratch:
@@ -41,6 +37,33 @@ Along the way, specify start and end transactions so individual scirpt lines can
 
 6. Save the script. 
 7. Create a zip file so you can go back to its nacent form.
+
+### Step 2
+
+## <a name="Commenting"> Comment</a>
+
+## **Add Comment, Run Types and Filters**
+
+ Add a comment in **init** section to provide background information on the script.
+
+1. High on the TruClient Sidebar, click on the **actions** list and select **Init** (rather than Action)
+
+2. Click on the **vertical Toolbox** tab to expand it.
+3. Select **Miscellaneous.**
+4. **Drag** Comment to the right over the edge, and drop it on the white Sidebar.
+5. **Click** on Insert comment here.
+6. Press **Ctrl+A** to highlight all words in the comment. Press the keyboard **delete key** to remove the text.
+7. Type a comment providing below information. 
+
+**Title, Description, Protocol, Author, Email  and Date.**
+
+Type dates in  **YYYY.Month.Day format** (such as 2015.06.23) to avoid confusion among international audiences.
+
+Type in your **email address** so people can reach you.
+
+TruClient automatically wraps the text between **/* and */** block comment tags.
+
+8.**Press Ctrl+Alt+S** or press the** Save** (diskette) icon to store the script to disk.
 
 ## Add Transactions
 This is done first so you can easily associate script lines with what transaction name was planned for it.
