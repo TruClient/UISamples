@@ -33,9 +33,8 @@ https://github.com/TruClient/UISamples/blob/master/MLT1/README.md
 
 ## <a name="AddComment">Edit Script - Add Comment</a>
 
-1.  Add a comment in **init** section to provide background information on the script.
+Add a comment in **init** section to provide background information on the script.
 
-## <a name="EditScript">Edit Script - Run Types and Filters</a>
 1. High on the TruClient Sidebar, click on the **actions** list and select **Init** (rather than Action)
 
 2. Click on the **vertical Toolbox** tab to expand it.
@@ -53,7 +52,62 @@ Type in your **email address** so people can reach you.
 
 TruClient automatically wraps the text between **/* and */** block comment tags.
 
-8.**Press Ctrl+Alt+S** or press the** Save** (diskette) icon to store the script to disk.
+8. **Press Ctrl+Alt+S** or press the **Save** (diskette) icon to store the script to disk.
+
+## <a name="EditScript">Edit Script - Run Types and Filters</a>
+
+**Configure Verbosity for Runs**
+
+Add JavaScript Code to Reveal Init Run Conditions.
+
+Values which do not change on every iteration through Action() section should appear only one time by being processed in the Init section, which is invoked only once at the beginning of the run for each vUser.
+
+Display in the log TruClient JavaScript variables associated with the run environment.
+
+At the TruClient Sidebar:
+
+1. High on the TruClient Sidebar, select **Init** (rather than Action).
+2. In the TruClient window, click the **Toolbox** vertical tab to reveal its options.
+3. Select **Miscellaneous.**
+4. Drag **Evaluate JavaScript** and drop it under the previous step.
+5. Click on the  **chevron icon** on the Evaluate JavaScript step to expand it. 
+6. Click **[code]** or Arguments heading.
+7. Click the Code **text entry area.**
+8. Click the **JS icon** to pop-up a text window.
+9. **Type** the following coding or **copy and paste** it .
+
+```
+// Run conditions:
+var jDocMod = document.lastModified;
+
+TC.log( "document.lastModified="+jDocMod );//=06/24/2015 20:51:06
+
+TC.log(">> LR.scriptDir="+ 	  LR.scriptDir);
+
+TC.log(">> LR.outputDir="+ 	  LR.outputDir);
+
+TC.log(">> LR.userId="+ 	  LR.userId );
+
+TC.log(">> LR.scenarioId="+   LR.scenarioId );
+
+TC.log(">> LR.groupName="+ 	  LR.groupName );
+```
+
+
+**Filter Out URL Address**
+
+Calls to Google Aanlytics (and other sites) are played back. Filter out requests to Google Analytics server.
+
+1. Open the editor.
+2. Paste the following at the last line.
+
+```
+//filter out google analytics
+Utils.addAutoFilter(/*https://www.google-analytics.com/*", false);
+```
+3. Click **OK** to dismiss the editor.
+
+
 
 ## Add Transactions
 This is done first so you can easily associate script lines with what transaction name was planned for it.
