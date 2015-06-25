@@ -52,7 +52,7 @@ Type in your **email address** so people can reach you.
 
 TruClient automatically wraps the text between **/* and */** block comment tags.
 
-8. **Press Ctrl+Alt+S** or press the **Save** (diskette) icon to store the script to disk.
+8. Press  **Ctrl+Alt+S** or press the **Save** (diskette) icon to store the script to disk.
 
 ## <a name="EditScript">Edit Script - Run Types and Filters</a>
 
@@ -103,7 +103,7 @@ Calls to Google Aanlytics (and other sites) are played back. Filter out requests
 
 ```
 //filter out google analytics
-Utils.addAutoFilter(/*https://www.google-analytics.com/*", false);
+Utils.addAutoFilter("https://www.google-analytics.com/*", false);
 ```
 3. Click **OK** to dismiss the editor.
 
@@ -115,6 +115,37 @@ This is done first so you can easily associate script lines with what transactio
 Since each transaction name is planned with a picture of the step, you can better understand what to code.
 
 Save the script again to establsh a fall-back point.
+
+**Define Transactions**
+
+1. Click on the Navigate step.
+
+![navstep](https://cloud.githubusercontent.com/assets/10678180/8362359/fd1f9702-1b3d-11e5-975a-60b167b67084.PNG)
+
+2. Click the ![starttrans](https://cloud.githubusercontent.com/assets/10678180/8362373/08d7c63c-1b3e-11e5-8826-67608c1695a3.png)   start transaction icon.
+
+
+
+3. Enter the desired transaction name. 
+
+![transname](https://cloud.githubusercontent.com/assets/10678180/8362387/19f793e8-1b3e-11e5-8e48-2e3db78bdf68.PNG)
+
+4. Click OK to set the transaction.
+5. Click the ![endtrans](https://cloud.githubusercontent.com/assets/10678180/8362380/1068ef5c-1b3e-11e5-8237-8d9d26149759.png)   stop transaction icon.
+
+
+![startendtrans](https://cloud.githubusercontent.com/assets/10678180/8362389/1f7acf6a-1b3e-11e5-96b9-1646b4fedcdb.PNG)
+
+
+Use the same technique mentioned above to complete the rest of the transaction name provided below.
+
+```
+Step 0 - Begin Correlation Challenge
+Step 1 - Enter the random number
+Step 2 - Select the default colour
+Step 3 - Select the in-stock items
+Step 4 - Final step
+```
 
 ## Add Verification
 Unlike C-langauge LoadRunner scripts which may contain function web_reg_save_param() 
