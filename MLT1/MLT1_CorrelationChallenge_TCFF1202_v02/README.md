@@ -52,7 +52,7 @@ Type in your **email address** so people can reach you.
 
 TruClient automatically wraps the text between **/* and */** block comment tags.
 
-8. Press  **Ctrl+Alt+S** or press the **Save** (diskette) icon to store the script to disk.
+8 .Press **Ctrl+Alt+S** or press the **Save** (diskette) icon to store the script to disk.
 
 ## <a name="EditScript">Edit Script - Run Types and Filters</a>
 
@@ -105,7 +105,7 @@ Calls to Google Aanlytics (and other sites) are played back. Filter out requests
 //filter out google analytics
 Utils.addAutoFilter("https://www.google-analytics.com/*", false);
 ```
-3. Click **OK** to dismiss the editor.
+ 3 .Click **OK** to dismiss the editor.
 
 
 
@@ -118,20 +118,22 @@ Save the script again to establsh a fall-back point.
 
 **Define Transactions**
 
-1. Click on the Navigate step.
+1 .Click on the Navigate step.
+
 
 ![navstep](https://cloud.githubusercontent.com/assets/10678180/8362359/fd1f9702-1b3d-11e5-975a-60b167b67084.PNG)
 
-2. Click the ![starttrans](https://cloud.githubusercontent.com/assets/10678180/8362373/08d7c63c-1b3e-11e5-8826-67608c1695a3.png)   start transaction icon.
+2 .Click the ![starttrans](https://cloud.githubusercontent.com/assets/10678180/8362373/08d7c63c-1b3e-11e5-8826-67608c1695a3.png)   start transaction icon.
 
 
 
-3. Enter the desired transaction name. 
+3 .Enter the desired transaction name.
 
 ![transname](https://cloud.githubusercontent.com/assets/10678180/8362387/19f793e8-1b3e-11e5-8e48-2e3db78bdf68.PNG)
 
-4. Click OK to set the transaction.
-5. Click the ![endtrans](https://cloud.githubusercontent.com/assets/10678180/8362380/1068ef5c-1b3e-11e5-8237-8d9d26149759.png)   stop transaction icon.
+ 4 .Click OK to set the transaction.
+
+ 5 .Click the ![endtrans](https://cloud.githubusercontent.com/assets/10678180/8362380/1068ef5c-1b3e-11e5-8237-8d9d26149759.png)   stop transaction icon
 
 
 ![startendtrans](https://cloud.githubusercontent.com/assets/10678180/8362389/1f7acf6a-1b3e-11e5-96b9-1646b4fedcdb.PNG)
@@ -159,47 +161,47 @@ In TruClient Action.
 ![toolbox](https://cloud.githubusercontent.com/assets/10678180/8372687/5081ce02-1bab-11e5-92d9-3456ea6463ca.PNG)
 
 
-1. Open the **Toolbox** tab at the right edge of the TruClient Sidebar by clicking it.
+ 1 .Open the **Toolbox** tab at the right edge of the TruClient Sidebar by clicking it.
 
 ![funver](https://cloud.githubusercontent.com/assets/10678180/8372722/8bf275fe-1bab-11e5-9f13-3754cfcad8f1.PNG)
 
 
-2. In the **Functions** tab, drag **Verify** immediately under the web request line.
+ 2 .In the **Functions** tab, drag **Verify** immediately under the web request line.
 
 
 ![vistext](https://cloud.githubusercontent.com/assets/10678180/8372244/fd6a7614-1ba6-11e5-8e74-11ad1f83a647.PNG)
 
 
-3. In the Property field type "Visible Text", including quote marks around the property name.
+ 3 .In the Property field type "Visible Text", including quote marks around the property name.
 
 
 ![verify](https://cloud.githubusercontent.com/assets/10678180/8372159/2e643620-1ba6-11e5-83d3-186fa24e28bd.PNG)
 
 
-4. Click on Click to choose an object.
+ 4 .Click on Click to choose an object.
 
 
 ![highlightobject](https://cloud.githubusercontent.com/assets/10678180/8372170/3bc0ff24-1ba6-11e5-95c9-1558312837ac.PNG)
 
 
-5. Position cursor to highlight (in Green) the control containing the text to be validated.
+ 5 .Position cursor to highlight (in Green) the control containing the text to be validated.
 
 
 ![highlightgreen](https://cloud.githubusercontent.com/assets/10678180/8372172/4098a3e4-1ba6-11e5-93c0-f14c6834b0b8.PNG)
 
 
-6. Click on the control (when it's in green) to generate this code:
+ 6 .Click on the control (when it's in green) to generate this code:
 
 
 ![verifiedobject](https://cloud.githubusercontent.com/assets/10678180/8372173/44bbc686-1ba6-11e5-98c7-c9459b48d3ee.PNG)
 
-7. Follow the above technique for the remaining steps to confirm that it got back the page that it expected.
+ 7 .Follow the above technique for the remaining steps to confirm that it got back the page that it expected.
 
 ## Edit Step 1
 
 1. Click the Toolbar and under Miscellaneous, select **Evaluate JavaScript**.
 2. Click on [Code] to edit
-4. Type in this line to instantiate a variable named **content** to hold the innerHTML obtained from the screen.
+3. Type in this line to instantiate a variable named **content** to hold the innerHTML obtained from the screen.
 
  ```
  var content = document.getElementById('content-inner').innerHTML;
@@ -208,7 +210,7 @@ In TruClient Action.
  Even though the **content-inner** Id is many lines above the target number we want captured,
  we reference it because it is the lowest level identifier to the target text.
 
-5. Type in this code to define a regular expression to capture the string into a variable named **array**.
+4. Type in this code to define a regular expression to capture the string into a variable named **array**.
  
  Your organization may prefer that you use another name to adopt a corporate convention.
 
@@ -235,7 +237,7 @@ In TruClient Action.
  The `+` in `([0-9]+)` specifies any number of repeats. 
 
 
-6.Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
+5. Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
   
  where step 1 value is 4360 which dynamacally changes.
    
