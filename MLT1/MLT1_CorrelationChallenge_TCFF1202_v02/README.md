@@ -199,48 +199,57 @@ In TruClient Action.
 
 ## Edit Step 1
 
-1. Click the Toolbar and under Miscellaneous, select **Evaluate JavaScript**.
-2. Click on [Code] to edit
-3. Type in this line to instantiate a variable named **content** to hold the innerHTML obtained from the screen.
+ 1. In the TruClient window, click the Toolbox vertical tab to reveal its   options.
+ 2. Select Miscellaneous.
+
+  ![mlt1md_image2](https://cloud.githubusercontent.com/assets/10678180/8443075/0cba7a38-1f49-11e5-9684-3795a24afe69.PNG)
+
+ 3. Drag **Evaluate JavaScript** and drop it above the step.
+
+ 4. Click on [Code] to edit
+ 5. Type in this line to instantiate a variable named **content** 
+ to hold the innerHTML obtained from the screen.
 
  ```
  var content = document.getElementById('content-inner').innerHTML;
  ```
 
- Even though the **content-inner** Id is many lines above the target number we want captured,
+ Even though the **content-inner** Id is many lines 
+
+ above the target number we want captured,
  we reference it because it is the lowest level identifier to the target text.
 
-4. Type in this code to define a regular expression to capture the string into a variable named **array**.
+ 6. Type in this code to define a regular expression to 
+capture the string into a variable named **array**.
  
- Your organization may prefer that you use another name to adopt a corporate convention.
+ Your organization may prefer that you use another  name to adopt a corporate convention.
 
  ```
  var array = content.match(/<strong>\s+([0-9]+)\s+<\/strong>/);
  ```
-
  The .match method operates on the content class defined earlier.
 
  The pattern is defined between two / (forward slashes).
 
  The text we want to capture is between `<strong>` and `</strong>` HTML tags.
  But in this particular case, there is not. 
- But there is the possibility that the HTML would contain more than one set of `<strong` tags.
- Sppecify an increment number if that is the case.
+ But there is the possibility that the HTML would contain more than one set   of `<strong` tags.Specify an increment number if that is the case.
 
  The two `\s+` `\s+`
- The parentheses in (\S+), called parenthesized back-reference, is used to extract the matched sub-string from the input    string. In this regex, there are two (\S+), match the first two words, separated by one or more whitespaces \s+.
+ \s+ match any white space character .
+ Quantifier: + Between one and unlimited times, as many times as possible.
 
  The parentheses in `([0-9]+)` specifies a grouping. 
 
  The `[0-9]` specifies any number (in the range of 0 through 9).
 
  The `+` in `([0-9]+)` specifies any number of repeats. 
+ 
+ 7. Type in this line to assign the 2nd value of the arrary  to a LoadRunner parameter  named "Step1Value" to hold ???
 
-
-5. Type in this line to assign the 2nd value of the arrary to a LoadRunner parameter named "Step1Value" to hold ???
-  
- where step 1 value is 4360 which dynamacally changes.
+  where step 1 value is 4360 which dynamacally changes.
    
+```
  TC.setParam("Step1Value",array[1]);
  ```
 
