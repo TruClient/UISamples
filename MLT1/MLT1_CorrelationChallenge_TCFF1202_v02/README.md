@@ -285,7 +285,7 @@ TC.getParam("Step1Value");
  5.Click **OK.**
 
 
-## Step 2
+## Edit Step 2
 
 ![01mlt1md_instockitems](https://cloud.githubusercontent.com/assets/10678180/8501797/a8c20604-216e-11e5-83eb-7e312d7136f1.PNG)
 
