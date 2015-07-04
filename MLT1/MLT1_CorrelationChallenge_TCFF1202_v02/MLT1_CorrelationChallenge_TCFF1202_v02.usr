@@ -19,8 +19,8 @@ RunType=cci
 DisableRegenerate=0
 Description=
 [Actions]
-Script-View=Script-View.c
 vuser_init=vuser_init.c
+Script-View=Script-View.c
 Action=Action.c
 vuser_end=vuser_end.c
 [VisibleActions]
@@ -39,23 +39,23 @@ C-functions.c=
 globals.h=
 JS-functions.js=
 [Interpreters]
-Script-View=no
 vuser_init=no
+Script-View=no
 Action=no
 vuser_end=no
 [Recorded Actions]
-Script-View=1
 vuser_init=0
+Script-View=1
 Action=0
 vuser_end=0
 [Modified Actions]
-Script-View=0
 vuser_init=0
+Script-View=0
 Action=0
 vuser_end=0
 [Replayed Actions]
-Script-View=0
 vuser_init=0
+Script-View=0
 Action=0
 vuser_end=0
 [TransactionsOrder]
