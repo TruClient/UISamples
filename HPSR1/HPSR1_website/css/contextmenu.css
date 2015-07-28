@@ -1,0 +1,156 @@
+#tcmenu,
+#tcmenu ul,
+#tcmenu ul li,
+#tcmenu ul li a {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  position: relative;
+  width:160px;
+}
+
+#tcmenu {
+	float:right;
+}
+
+#tcmenu > ul > li {
+  float: left;
+}
+
+#tcmenu > ul > li > a {
+  padding: 17px; 
+  font: 2em HPSimplifiedBold;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -ms-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+#tcmenu > ul > li:hover > a,
+#tcmenu > ul > li.active > a {
+  color: #009ae1;
+  background-color: rgba(255,255,255,0.6);
+}
+
+#tcmenu > ul > li.has-sub > a {
+  padding-right: 25px;
+}
+
+#tcmenu > ul > li.has-sub > a::after {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+
+#tcmenu > ul > li.has-sub:hover > a::after {
+  border-color: #009ae1;
+}
+
+#tcmenu ul ul {
+  position: absolute;
+	overflow: hidden;
+}
+
+#tcmenu li:hover > ul {
+	overflow: visible;
+}
+
+#tcmenu.align-right li:hover > ul {
+  right: 0;
+}
+
+#tcmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#tcmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+
+#tcmenu ul ul li {
+  height: 0;
+}
+
+#tcmenu ul li:hover > ul > li {
+  height: 44px;
+}
+
+#tcmenu ul ul li a {
+  padding: 12px 20px;
+  width: 160px;
+  font: 16px HPSimplifiedBold;
+  background: #FFFFFF;
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+	-webkit-transition: background .5s ease;
+	-moz-transition: background .5s ease;
+	-ms-transition: background .5s ease;
+	-o-transition: background .5s ease;
+	transition: background .5s ease;
+}
+
+#tcmenu ul ul li:hover > a,
+#tcmenu ul ul li a:hover {
+  color: #ffffff;
+	background: #333333;
+}
+
+#tcmenu ul ul li.has-sub > a::after {
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color .2s ease;
+  -moz-transition: border-color .2s ease;
+  -ms-transition: border-color .2s ease;
+  -o-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+}
+
+#tcmenu.align-right ul ul li.has-sub > a::after {
+  right: auto;
+  left: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+}
+
+#tcmenu ul ul li.has-sub:hover > a::after {
+  border-color: #ffffff;
+}

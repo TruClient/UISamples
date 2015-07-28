@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link type="text/css" href="css/truclient.css" rel="stylesheet"/>
+	<link type="text/css" href="css/jquery-ui.css" rel="stylesheet"/>
+	<link type="text/css" href="css/contextmenu.css" rel="stylesheet"/>
+	<link type="text/css" href="css/table.css" rel="stylesheet"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/table1.js"></script>
+</head>
+<body>
+	<div class="hp_header">
+		<div class="hp_header_container hf_clf">
+			<div class="hp_logo">
+				<img class="hf_no_printable" src="images/hp-logo.png" alt="HP® Official Site   | Laptop Computers, Desktops , Printers, Servers and more"</img>
+				<!--<img class="hf_no_printable" src="images/tc-logo.png" alt="TruClient® Official Site   | Web performance testing tool"</img>-->
+			</div>
+			<div class="hp_learning_header"> Sample Pages for Custom Object Identification </div>
+			<div id="tcmenu">
+				<ul>
+					<li class='has-sub'><a href='tc_samples.html'>Examples</a>
+						<ul>
+							<li><a href='links.html'>Links</a></li>
+							<li class='has-sub'><a href='#'>Tables</a>
+								<ul><li><a href='table1.html'>Selectable</a></li><li><a href='table2.html'>Clickable</a></li></ul>
+							</li>
+							<li><a href='dynamic_value.html'>Dynamic Value</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-color"  style="margin-bottom:10px;">
+		<div class="container" style="height: 300px !important;">
+			<div class="row content-top">
+				<div class="content-top-tc-logo"><img class="tc-image-logo" src="images/TC_Logo_Gray.png"></img></div>
+				<div class="content_left_text" style="padding-left:50px; margin-top:-2px;">
+					<h3> Clickable cells </h3>
+					<p> This page generates dynamic table when pressing the 'Refresh' button.
+							<br> Use [Michal - fill script name] with this page to learn <br>how to close an open state cell.
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container" style="padding-left:450px !important; padding-bottom:5px;">
+			<button class="table button" onclick=generate()> Refresh </button>
+		</div>
+		<div id="container" class="container tctable" style="padding:5px">
+	</div>
+</body>
+</html>
