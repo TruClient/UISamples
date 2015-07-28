@@ -18,12 +18,12 @@ As with other scripts, the naming convention for TruClient scripts is
   * TCIE1202 means TruCleint Internet Explorer LoadRunner 12.02
 
 
-#### <a name="HP_Dynamic_Value"></a> Dynamic Value
+#### <a name="HP_Dynamic_Value"> Dynamic Value</a>
 
 TruClient script <a href="HPSR1_DynamicValue_TCFF1202_v01">HPSR1_DynamicValue_TCFF1202_v01</a>
 processes http://stormhelp.saas.hp.com/TruClient/TruClientExamples/html/dynamic_value.html
 
-![hpsr1_dynamic_value_v1](https://cloud.githubusercontent.com/assets/300046/7865448/1912acf2-0526-11e5-8557-9bb3e7e3be4f.png)
+<img src="https://cloud.githubusercontent.com/assets/300046/7865448/1912acf2-0526-11e5-8557-9bb3e7e3be4f.png" />
 
 When the "Generate" button is pressed generates a random number.
 
