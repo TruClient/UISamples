@@ -4,7 +4,7 @@ The idea for this began when I made realized that unlike pure coding of programs
 TruClient scripting is done in little cubicles like I have at home.
 While cubicles reduce clutter, one has to remember where each type of asset goes.
 
-I occured to me that the **visual memory** necessary may be best learned via a visual medium such as **videos**.
+It occured to me that the **visual memory** necessary may be best learned via a visual medium such as **videos**.
 
 What we would like to see in the script, and how to create a script is described in [Scripting.md](Scripting.md).
 
