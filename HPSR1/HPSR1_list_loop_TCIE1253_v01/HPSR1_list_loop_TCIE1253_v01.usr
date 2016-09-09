@@ -3,7 +3,7 @@ Type=WebIE
 DefaultCfg=default.cfg
 MajorVersion=12
 MinorVersion=53
-ParameterFile=HPSR1_list_loop_TCIE1202_v01.prm
+ParameterFile=HPSR1_list_loop_TCIE1253_v01.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 LastActiveAction=Script-View
@@ -18,7 +18,7 @@ ScriptLanguage=C
 RunType=cci
 DisableRegenerate=0
 Description=
-LastCodeGenerationVer=
+LastCodeGenerationVer=12.53.0.1203
 ScriptLocale=en-US
 [Actions]
 vuser_init=vuser_init.c
@@ -89,5 +89,5 @@ Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1

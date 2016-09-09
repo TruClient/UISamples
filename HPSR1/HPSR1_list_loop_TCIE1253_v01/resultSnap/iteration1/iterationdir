@@ -1,0 +1,16 @@
+[vuser_init]
+SnapshotIndex=I1_Script-View
+[Action]
+SnapshotIndex=I1_Script-View
+[A1_EvalXPathMatchParam]
+SnapshotIndex=I1_Script-View
+[A2_EvalXPathArgsContext]
+SnapshotIndex=I1_Script-View
+[A3_EvalXPath_DOM_ArgsContext]
+SnapshotIndex=I1_Script-View
+[A4_Descriptors_Editor]
+SnapshotIndex=I1_Script-View
+[vuser_end]
+SnapshotIndex=I1_Script-View
+[Script-View]
+SnapshotIndex=I1_Script-View
