@@ -1,0 +1,36 @@
+Virtual User Script started at : 2016-09-09 16:14:46
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/09 at 16:14:45 (0000.000s)
+t=00001848ms: ** 2: Evaluate JavaScript code // Run conditions: var j....net/*", false); ** started    [MsgId: MMSG-205180]
+t=00001851ms: >> document.lastModified=09/09/2016 16:14:47    [MsgId: MMSG-205180]
+t=00001852ms: >> LR.scriptDir=C:\githubs\wilsonmar\UISamples\HPSR1\HPSR1_ClickableTable_TCFF1253_v01\    [MsgId: MMSG-205180]
+t=00001852ms: >> LR.outputDir=C:\githubs\wilsonmar\UISamples\HPSR1\HPSR1_ClickableTable_TCFF1253_v01\    [MsgId: MMSG-205180]
+t=00001853ms: >> LR.userId=-1    [MsgId: MMSG-205180]
+t=00001854ms: >> LR.scenarioId=0    [MsgId: MMSG-205180]
+t=00001854ms: >> LR.groupName=None    [MsgId: MMSG-205180]
+t=00002059ms: ** 2: Evaluate JavaScript code // Run conditions: var j....net/*", false); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "T01_Landing_URL" started.
+t=00002805ms: ** 1: Navigate to "http://stormhelp.saas.h...tml/table2.html" ** started    [MsgId: MMSG-205180]
+t=00005545ms: ** 1: Navigate to http://stormhelp.saas.hp...html/table2.html ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing_URL" ended with a "Pass" status (Duration: 2.7490 Wasted Time: 0.2000).
+t=00006053ms: ** 2: Evaluate JavaScript var rows = object.rows.length; on element (1)  ** started    [MsgId: MMSG-205180]
+t=00006323ms: ** 2: Evaluate JavaScript var rows = object.rows.length; on element (1)  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006332ms: ** 3: For (var i = 1; i <= rows; i++) ** started    [MsgId: MMSG-205180]
+t=00006341ms: ** 3: For loop 1 ** started    [MsgId: MMSG-205180]
+t=00006353ms: ** 3.1: If Open gridcell exists ** started    [MsgId: MMSG-205180]
+t=00007076ms: ** 3.1.1: Evaluate JavaScript var theOpenText = object; on Open gridcell ** started    [MsgId: MMSG-205180]
+t=00007380ms: ** 3.1.1: Evaluate JavaScript var theOpenText = object; on Open gridcell ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007431ms: ** 3.1.2: Evaluate JavaScript code var clickOn = theOpenTex...clickOn.click(); ** started    [MsgId: MMSG-205180]
+t=00007649ms: ** 3.1.2: Evaluate JavaScript code var clickOn = theOpenTex...clickOn.click(); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007868ms: ** 3.1: If Open gridcell exists ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007874ms: ** 3: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00007880ms: ** 3: For loop 2 ** started    [MsgId: MMSG-205180]
+t=00007890ms: ** 3.1: If Open gridcell exists ** started    [MsgId: MMSG-205180]
+t=00028017ms: ** 3.1.1: Break ** started    [MsgId: MMSG-205180]
+t=00028025ms: ** 3.1.1: Break ** Loop terminated due to Break step    [MsgId: MMSG-205180]
+t=00028042ms: ** 3.1: If Open gridcell exists ** Loop terminated due to Break step    [MsgId: MMSG-205180]
+t=00028055ms: ** 3: For (var i = 1; i <= rows; i++) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
