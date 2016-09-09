@@ -1,0 +1,31 @@
+Virtual User Script started at : 2016-09-09 16:41:50
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/09 at 16:41:44 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00006494ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00006502ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006505ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00007011ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00007839ms: ** 3.1: Navigate to http://stormhelp.saas.hp...namic_value.html ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00007843ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008345ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00008553ms: ** 4: Click on Generate button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008556ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00008557ms: >> generated_data=[object HTMLDivElement] innerHTML=No. 27    [MsgId: MMSG-205180]
+t=00008760ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Starting iteration 2.
+t=00008846ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00008852ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008855ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00009360ms: ** 3.1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00010006ms: ** 3.1: Navigate to http://stormhelp.saas.hp...namic_value.html ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00010009ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010511ms: ** 4: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00010724ms: ** 4: Click on Generate button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010725ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** started    [MsgId: MMSG-205180]
+t=00010725ms: >> generated_data=[object HTMLDivElement] innerHTML=No. 16    [MsgId: MMSG-205180]
+t=00010926ms: ** 5: Evaluate JavaScript code generated_data = documen...enerated_data ); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 2.
+Ending Vuser...
+Vuser Terminated.
