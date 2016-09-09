@@ -1,0 +1,41 @@
+Virtual User Script started at : 2016-09-09 16:25:26
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/09 at 16:25:26 (0000.000s)
+t=00001045ms: ** 2: Evaluate JavaScript code // Run conditions: var j....net/*", false); ** started    [MsgId: MMSG-205180]
+t=00001050ms: >> document.lastModified=09/09/2016 16:25:27    [MsgId: MMSG-205180]
+t=00001051ms: >> LR.scriptDir=C:\githubs\wilsonmar\UISamples\HPSR1\HPSR1_DynamicTable_TCIE1253_v01\    [MsgId: MMSG-205180]
+t=00001051ms: >> LR.outputDir=C:\githubs\wilsonmar\UISamples\HPSR1\HPSR1_DynamicTable_TCIE1253_v01\    [MsgId: MMSG-205180]
+t=00001052ms: >> LR.userId=-1    [MsgId: MMSG-205180]
+t=00001052ms: >> LR.scenarioId=0    [MsgId: MMSG-205180]
+t=00001053ms: >> LR.groupName=None    [MsgId: MMSG-205180]
+t=00001257ms: ** 2: Evaluate JavaScript code // Run conditions: var j....net/*", false); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "T01_Landing_URL" started.
+t=00001971ms: ** 1: Navigate to "http://stormhelp.saas.h...tml/table1.html" ** started    [MsgId: MMSG-205180]
+t=00003490ms: ** 1: Navigate to http://stormhelp.saas.hp...html/table1.html ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing_URL" ended with a "Pass" status (Duration: 1.5290 Wasted Time: 0.2010).
+t=00003566ms: ** 2: For (var i = 1; i < 4; i++) ** started    [MsgId: MMSG-205180]
+t=00003570ms: ** 2: For loop 1 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" started.
+t=00004083ms: ** 2.1: Click on Refresh button ** started    [MsgId: MMSG-205180]
+t=00004364ms: ** 2.1: Click on Refresh button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" ended with a "Pass" status (Duration: 0.2900 Wasted Time: 0.2000).
+t=00004378ms: ** 2: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00004380ms: ** 2: For loop 2 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" started.
+t=00004892ms: ** 2.1: Click on Refresh button ** started    [MsgId: MMSG-205180]
+t=00005177ms: ** 2.1: Click on Refresh button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" ended with a "Pass" status (Duration: 0.2980 Wasted Time: 0.2010).
+t=00005192ms: ** 2: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00005195ms: ** 2: For loop 3 ** started    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" started.
+t=00005702ms: ** 2.1: Click on Refresh button ** started    [MsgId: MMSG-205180]
+t=00005979ms: ** 2.1: Click on Refresh button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T02_ClickOn_Refresh_Button" ended with a "Pass" status (Duration: 0.2830 Wasted Time: 0.2010).
+t=00005989ms: ** 2: For loop 3 ** ended    [MsgId: MMSG-205180]
+t=00005992ms: ** 2: For (var i = 1; i < 4; i++) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006498ms: ** 3: Evaluate JavaScript object.checked = !object.checked;  on onTable Cell gridcell ** started    [MsgId: MMSG-205180]
+t=00006773ms: ** 3: Evaluate JavaScript object.checked = !object.checked;  on onTable Cell gridcell ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
